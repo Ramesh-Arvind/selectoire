@@ -221,7 +221,7 @@ This is the only sunscreen on our list that improves your skin condition while p
         price: "$190",
         image: "/images/products/salomon-xt6.jpg",
         rating: 4.6,
-        affiliateUrl: "https://www.amazon.com/dp/B09TKMYB7F?tag=selectoire21-20",
+        affiliateUrl: "https://www.amazon.com/s?k=Salomon+XT-6&tag=selectoire21-20",
         affiliateUrlDE: "https://www.amazon.de/s?k=Salomon+XT-6&tag=selectoire-21",
         affiliateProgram: "Amazon Associates",
         pros: [
@@ -242,7 +242,7 @@ This is the only sunscreen on our list that improves your skin condition while p
         price: "$150",
         image: "/images/products/nb-2002r.jpg",
         rating: 4.7,
-        affiliateUrl: "https://www.amazon.com/dp/B0B6G5G6F6?tag=selectoire21-20",
+        affiliateUrl: "https://www.amazon.com/s?k=New+Balance+2002R&tag=selectoire21-20",
         affiliateUrlDE: "https://www.amazon.de/s?k=New+Balance+2002R&tag=selectoire-21",
         affiliateProgram: "Amazon Associates",
         pros: [
@@ -263,7 +263,7 @@ This is the only sunscreen on our list that improves your skin condition while p
         price: "$160",
         image: "/images/products/asics-kayano-14.jpg",
         rating: 4.5,
-        affiliateUrl: "https://www.amazon.com/dp/B0BVFB22NK?tag=selectoire21-20",
+        affiliateUrl: "https://www.amazon.com/s?k=ASICS+Gel-Kayano+14&tag=selectoire21-20",
         affiliateUrlDE: "https://www.amazon.de/s?k=ASICS+Gel-Kayano+14&tag=selectoire-21",
         affiliateProgram: "Amazon Associates",
         pros: [
@@ -384,7 +384,7 @@ But gorpcore has matured. It's no longer enough to just look technical. The best
         price: "$549",
         image: "/images/products/airpods-max-2.jpg",
         rating: 4.5,
-        affiliateUrl: "https://www.amazon.com/dp/B0DJYGRKMH?tag=selectoire21-20",
+        affiliateUrl: "https://www.amazon.com/s?k=Apple+AirPods+Max+2&tag=selectoire21-20",
         affiliateUrlDE: "https://www.amazon.de/s?k=Apple+AirPods+Max+2&tag=selectoire-21",
         affiliateProgram: "Amazon Associates",
         pros: [
@@ -511,7 +511,7 @@ None of these features matter if you're on Android. All of them matter significa
         price: "€3,150",
         image: "/images/products/cartier-tank.jpg",
         rating: 4.7,
-        affiliateUrl: "https://www.amazon.com/dp/B09XK3DHSZ?tag=selectoire21-20",
+        affiliateUrl: "https://www.amazon.com/s?k=Cartier+Tank+Must&tag=selectoire21-20",
         affiliateUrlDE: "https://www.amazon.de/s?k=Cartier+Tank+Must&tag=selectoire-21",
         affiliateProgram: "Chrono24",
         pros: [
@@ -532,7 +532,7 @@ None of these features matter if you're on Android. All of them matter significa
         price: "€6,400",
         image: "/images/products/jlc-reverso.jpg",
         rating: 4.8,
-        affiliateUrl: "https://www.amazon.com/dp/B004KY8FME?tag=selectoire21-20",
+        affiliateUrl: "https://www.amazon.com/s?k=Jaeger+LeCoultre+Reverso&tag=selectoire21-20",
         affiliateUrlDE: "https://www.amazon.de/s?k=Jaeger+LeCoultre+Reverso&tag=selectoire-21",
         affiliateProgram: "Chrono24",
         pros: [
@@ -649,7 +649,7 @@ None of these features matter if you're on Android. All of them matter significa
         price: "€260 (125ml)",
         image: "/images/products/pdm-layton.jpg",
         rating: 4.7,
-        affiliateUrl: "https://www.amazon.com/dp/B01MU7XTUZ?tag=selectoire21-20",
+        affiliateUrl: "https://www.amazon.com/s?k=Parfums+de+Marly+Layton&tag=selectoire21-20",
         affiliateUrlDE: "https://www.amazon.de/s?k=Parfums+de+Marly+Layton&tag=selectoire-21",
         affiliateProgram: "FragranceNet",
         pros: [
@@ -670,7 +670,7 @@ None of these features matter if you're on Android. All of them matter significa
         price: "€115 (100ml)",
         image: "/images/products/dior-sauvage.jpg",
         rating: 4.4,
-        affiliateUrl: "https://www.amazon.com/dp/B07DFXNBJW?tag=selectoire21-20",
+        affiliateUrl: "https://www.amazon.com/s?k=Dior+Sauvage+EDP&tag=selectoire21-20",
         affiliateUrlDE: "https://www.amazon.de/s?k=Dior+Sauvage+EDP&tag=selectoire-21",
         affiliateProgram: "Sephora",
         pros: [

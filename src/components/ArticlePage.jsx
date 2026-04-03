@@ -34,50 +34,25 @@ function ProductCard({ product, index }) {
         minWidth: "280px",
       }}
     >
-      {(() => {
-        const img = getProductImage(product.name);
-        return img.type === "image" ? (
-          <div
-            style={{
-              width: "100%",
-              height: "200px",
-              background: "#f8f5f0",
-              borderRadius: "6px",
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-              marginBottom: "20px",
-              overflow: "hidden",
-            }}
-          >
-            <img
-              src={img.src}
-              alt={product.name}
-              style={{
-                maxWidth: "90%",
-                maxHeight: "180px",
-                objectFit: "contain",
-              }}
-            />
-          </div>
-        ) : (
-          <div
-            style={{
-              width: "100%",
-              height: "200px",
-              background: "linear-gradient(135deg, #f5f0e8 0%, #ebe5d9 100%)",
-              borderRadius: "6px",
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-              marginBottom: "20px",
-              fontSize: "48px",
-            }}
-          >
-            {img.src}
-          </div>
-        );
-      })()}
+      <div
+        style={{
+          width: "100%",
+          height: "180px",
+          background: "linear-gradient(135deg, #f5f0e8 0%, #ebe5d9 100%)",
+          borderRadius: "6px",
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+          justifyContent: "center",
+          marginBottom: "20px",
+          gap: "8px",
+        }}
+      >
+        <span style={{ fontSize: "52px" }}>{getProductImage(product.name).src}</span>
+        <span style={{ fontSize: "11px", color: "#b4a078", fontWeight: 500, letterSpacing: "0.05em", textTransform: "uppercase", fontFamily: "'DM Sans', sans-serif" }}>
+          {product.price}
+        </span>
+      </div>
       <h3
         style={{
           fontFamily: "'Cormorant Garamond', Georgia, serif",

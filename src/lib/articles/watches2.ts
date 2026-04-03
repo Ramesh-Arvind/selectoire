@@ -26,7 +26,7 @@ export const watches2Articles: Article[] = [
         price: "$475",
         image: "/images/products/tissot-prx.jpg",
         rating: 4.6,
-        affiliateUrl: "https://www.amazon.com/dp/B0CJ8KRLP7?tag=selectoire21-20",
+        affiliateUrl: "https://www.amazon.com/s?k=Tissot+PRX+Powermatic+80&tag=selectoire21-20",
         affiliateUrlDE: "https://www.amazon.de/s?k=Tissot+PRX+Powermatic+80&tag=selectoire-21",
         affiliateProgram: "Jomashop",
         pros: [

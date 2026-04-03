@@ -197,7 +197,7 @@ The UK's VAT Retail Export Scheme allows tourists to claim back the 20% VAT on p
         price: "£350",
         image: "/images/products/sony-xm6.jpg",
         rating: 4.7,
-        affiliateUrl: "https://www.amazon.com/dp/B0CZQZ4KXZ?tag=selectoire21-20",
+        affiliateUrl: "https://www.amazon.com/s?k=Sony+WH-1000XM6&tag=selectoire21-20",
         affiliateUrlDE: "https://www.amazon.de/s?k=Sony+WH-1000XM6&tag=selectoire-21",
         affiliateProgram: "Amazon Associates",
         pros: [
@@ -217,7 +217,7 @@ The UK's VAT Retail Export Scheme allows tourists to claim back the 20% VAT on p
         price: "£400",
         image: "/images/products/bose-qc-ultra.jpg",
         rating: 4.6,
-        affiliateUrl: "https://www.amazon.com/dp/B0CCZ1L489?tag=selectoire21-20",
+        affiliateUrl: "https://www.amazon.com/s?k=Bose+QuietComfort+Ultra&tag=selectoire21-20",
         affiliateUrlDE: "https://www.amazon.de/s?k=Bose+QuietComfort+Ultra&tag=selectoire-21",
         affiliateProgram: "Amazon Associates",
         pros: [

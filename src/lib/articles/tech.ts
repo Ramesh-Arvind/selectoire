@@ -26,7 +26,7 @@ export const techArticles: Article[] = [
         price: "€399",
         image: "/images/products/sony-xm6.jpg",
         rating: 4.7,
-        affiliateUrl: "https://www.amazon.com/dp/B0CZQZ4KXZ?tag=selectoire21-20",
+        affiliateUrl: "https://www.amazon.com/s?k=Sony+WH-1000XM6&tag=selectoire21-20",
         affiliateUrlDE: "https://www.amazon.de/s?k=Sony+WH-1000XM6&tag=selectoire-21",
         affiliateProgram: "Amazon Associates",
         pros: [
@@ -47,7 +47,7 @@ export const techArticles: Article[] = [
         price: "€449",
         image: "/images/products/bose-qc-ultra.jpg",
         rating: 4.6,
-        affiliateUrl: "https://www.amazon.com/dp/B0CCZ1L489?tag=selectoire21-20",
+        affiliateUrl: "https://www.amazon.com/s?k=Bose+QuietComfort+Ultra&tag=selectoire21-20",
         affiliateUrlDE: "https://www.amazon.de/s?k=Bose+QuietComfort+Ultra&tag=selectoire-21",
         affiliateProgram: "Amazon Associates",
         pros: [
@@ -172,7 +172,7 @@ export const techArticles: Article[] = [
         price: "€1,799",
         image: "/images/products/fujifilm-x100vi.jpg",
         rating: 4.8,
-        affiliateUrl: "https://www.amazon.com/dp/B0CVRK7B68?tag=selectoire21-20",
+        affiliateUrl: "https://www.amazon.com/s?k=Fujifilm+X100VI&tag=selectoire21-20",
         affiliateUrlDE: "https://www.amazon.de/s?k=Fujifilm+X100VI&tag=selectoire-21",
         affiliateProgram: "B&H Photo",
         pros: [
@@ -287,7 +287,7 @@ Build quality is solid aluminum and magnesium alloy. The hybrid optical/electron
         price: "€399",
         image: "/images/products/sony-xm6.jpg",
         rating: 4.7,
-        affiliateUrl: "https://www.amazon.com/dp/B0CZQZ4KXZ?tag=selectoire21-20",
+        affiliateUrl: "https://www.amazon.com/s?k=Sony+WH-1000XM6&tag=selectoire21-20",
         affiliateUrlDE: "https://www.amazon.de/s?k=Sony+WH-1000XM6&tag=selectoire-21",
         affiliateProgram: "Amazon Associates",
         pros: [
@@ -306,7 +306,7 @@ Build quality is solid aluminum and magnesium alloy. The hybrid optical/electron
         price: "€449",
         image: "/images/products/bose-qc-ultra.jpg",
         rating: 4.6,
-        affiliateUrl: "https://www.amazon.com/dp/B0CCZ1L489?tag=selectoire21-20",
+        affiliateUrl: "https://www.amazon.com/s?k=Bose+QuietComfort+Ultra&tag=selectoire21-20",
         affiliateUrlDE: "https://www.amazon.de/s?k=Bose+QuietComfort+Ultra&tag=selectoire-21",
         affiliateProgram: "Amazon Associates",
         pros: [
@@ -325,7 +325,7 @@ Build quality is solid aluminum and magnesium alloy. The hybrid optical/electron
         price: "€549",
         image: "/images/products/airpods-max-2.jpg",
         rating: 4.5,
-        affiliateUrl: "https://www.amazon.com/dp/B0DJYGRKMH?tag=selectoire21-20",
+        affiliateUrl: "https://www.amazon.com/s?k=Apple+AirPods+Max+2&tag=selectoire21-20",
         affiliateUrlDE: "https://www.amazon.de/s?k=Apple+AirPods+Max+2&tag=selectoire-21",
         affiliateProgram: "Amazon Associates",
         pros: [

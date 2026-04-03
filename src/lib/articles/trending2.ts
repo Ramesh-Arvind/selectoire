@@ -26,7 +26,7 @@ export const trending2Articles: Article[] = [
         price: "€7,100",
         image: "/images/products/omega-speedmaster.jpg",
         rating: 4.9,
-        affiliateUrl: "https://www.amazon.com/dp/B08L5LGFKX?tag=selectoire21-20",
+        affiliateUrl: "https://www.amazon.com/s?k=Omega+Speedmaster+Professional&tag=selectoire21-20",
         affiliateUrlDE: "https://www.amazon.de/s?k=Omega+Speedmaster+Professional&tag=selectoire-21",
         affiliateProgram: "Chrono24",
         pros: [
@@ -155,7 +155,7 @@ At €7,100, it's a significant purchase. But unlike most things you buy for tha
         price: "$130",
         image: "/images/products/casio-gbd-300.jpg",
         rating: 4.5,
-        affiliateUrl: "https://www.amazon.com/dp/B0DK4LQ8WP?tag=selectoire21-20",
+        affiliateUrl: "https://www.amazon.com/s?k=Casio+G-Shock+GBD-300&tag=selectoire21-20",
         affiliateUrlDE: "https://www.amazon.de/s?k=Casio+G-Shock+GBD-300&tag=selectoire-21",
         affiliateProgram: "Amazon Associates",
         pros: [
@@ -284,7 +284,7 @@ For travelers, this is transformative. No charging cable, no adapters, no anxiet
         price: "$1,299",
         image: "/images/products/samsung-s26-ultra.jpg",
         rating: 4.7,
-        affiliateUrl: "https://www.amazon.com/dp/B0DS4G2RBG?tag=selectoire21-20",
+        affiliateUrl: "https://www.amazon.com/s?k=Samsung+Galaxy+S26+Ultra&tag=selectoire21-20",
         affiliateUrlDE: "https://www.amazon.de/s?k=Samsung+Galaxy+S26+Ultra&tag=selectoire-21",
         affiliateProgram: "Amazon Associates",
         pros: [
@@ -438,7 +438,7 @@ For travelers, this is transformative. No charging cable, no adapters, no anxiet
         price: "$699",
         image: "/images/products/dyson-zone-2.jpg",
         rating: 3.8,
-        affiliateUrl: "https://www.amazon.com/dp/B0DQ58F3V5?tag=selectoire21-20",
+        affiliateUrl: "https://www.amazon.com/s?k=Dyson+Zone+2&tag=selectoire21-20",
         affiliateUrlDE: "https://www.amazon.de/s?k=Dyson+Zone+2&tag=selectoire-21",
         affiliateProgram: "Amazon Associates",
         pros: [
