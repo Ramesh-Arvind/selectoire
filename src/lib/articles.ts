@@ -10,6 +10,9 @@ import { trending3Articles } from "./articles/trending3";
 import { homeArticles } from "./articles/home";
 import { watches2Articles } from "./articles/watches2";
 import { tech2Articles } from "./articles/tech2";
+import { fashion3Articles } from "./articles/fashion3";
+import { grooming2Articles } from "./articles/grooming2";
+import { home2Articles } from "./articles/home2";
 
 export type Article = {
   slug: string;
@@ -113,6 +116,9 @@ export const ARTICLES: Article[] = [
   ...homeArticles,
   ...watches2Articles,
   ...tech2Articles,
+  ...fashion3Articles,
+  ...grooming2Articles,
+  ...home2Articles,
 ];
 
 export function getArticlesByCategory(category: string): Article[] {
