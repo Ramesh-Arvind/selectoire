@@ -38,7 +38,7 @@ export const TREND_DATA: TrendEntry[] = [
     dataSources: ["Chrono24 trending", "Google Trends", "r/Watches top posts"],
     notes: "Evergreen demand. Saturated coverage but our editorial angle (value analysis) is underserved.",
     lastScanned: "2026-04-03",
-    hasArticle: false,
+    hasArticle: true,
   },
   {
     product: "Casio G-Shock GBD-300",
@@ -55,7 +55,7 @@ export const TREND_DATA: TrendEntry[] = [
     dataSources: ["Google Trends rising", "r/Watches frequent mentions", "Amazon bestseller"],
     notes: "New release generating buzz. Low competition for review content. Summer outdoor relevance.",
     lastScanned: "2026-04-03",
-    hasArticle: false,
+    hasArticle: true,
   },
   {
     product: "Cartier Tank",
@@ -72,7 +72,7 @@ export const TREND_DATA: TrendEntry[] = [
     dataSources: ["Chrono24 price increase", "Lyst Index trending", "Google Trends"],
     notes: "Cartier Tank seeing resurgence post-celebrity endorsements. Cross-list with fashion sector.",
     lastScanned: "2026-04-03",
-    hasArticle: false,
+    hasArticle: true,
   },
 
   // === TECH — High demand topics without articles ===
@@ -91,7 +91,7 @@ export const TREND_DATA: TrendEntry[] = [
     dataSources: ["The Verge launch coverage", "r/headphones", "Google Trends spike"],
     notes: "Already mentioned in buying guide but deserves standalone review. Apple ecosystem users searching heavily.",
     lastScanned: "2026-04-03",
-    hasArticle: false,
+    hasArticle: true,
   },
   {
     product: "Samsung Galaxy S26 Ultra Camera",
@@ -108,7 +108,7 @@ export const TREND_DATA: TrendEntry[] = [
     dataSources: ["DPReview", "YouTube view counts", "Google Trends"],
     notes: "Massive search volume but angle needs to be unique. Focus on real-world photo comparisons, not specs.",
     lastScanned: "2026-04-03",
-    hasArticle: false,
+    hasArticle: true,
   },
   {
     product: "Dyson Zone 2",
@@ -125,7 +125,7 @@ export const TREND_DATA: TrendEntry[] = [
     dataSources: ["The Verge", "r/headphones curiosity posts", "Google Trends"],
     notes: "Polarizing product = high engagement. Low competition because few reviewers have tested it.",
     lastScanned: "2026-04-03",
-    hasArticle: false,
+    hasArticle: true,
   },
 
   // === FASHION — High demand topics without articles ===
@@ -144,7 +144,7 @@ export const TREND_DATA: TrendEntry[] = [
     dataSources: ["Lyst Index #3 trending", "StockX price data", "Pinterest Trends"],
     notes: "Gorpcore still rising. Salomon XT-6 is THE sneaker of 2026 spring. Triple comparison = high conversion.",
     lastScanned: "2026-04-03",
-    hasArticle: false,
+    hasArticle: true,
   },
   {
     product: "Ray-Ban Meta Smart Glasses",
@@ -161,7 +161,7 @@ export const TREND_DATA: TrendEntry[] = [
     dataSources: ["Google Trends rising", "r/malefashionadvice", "The Verge"],
     notes: "Crossover tech/fashion. Summer season = sunglasses peak. AI angle is timely and underserved.",
     lastScanned: "2026-04-03",
-    hasArticle: false,
+    hasArticle: true,
   },
   {
     product: "Loro Piana Summer Walk",
@@ -178,7 +178,7 @@ export const TREND_DATA: TrendEntry[] = [
     dataSources: ["Lyst Index", "Google Trends seasonal", "r/malefashionadvice"],
     notes: "Summer loafer content peaks April-June. Range from affordable (G.H. Bass) to luxury (Loro Piana). Great buyer intent.",
     lastScanned: "2026-04-03",
-    hasArticle: false,
+    hasArticle: true,
   },
 
   // === GROOMING — High demand topics without articles ===
@@ -197,7 +197,7 @@ export const TREND_DATA: TrendEntry[] = [
     dataSources: ["Fragrantica trending", "r/fragrance top posts", "Google Trends"],
     notes: "Two of the most searched men's fragrances. 'vs' format will convert well. Spring/summer is cologne buying season.",
     lastScanned: "2026-04-03",
-    hasArticle: false,
+    hasArticle: true,
   },
   {
     product: "La Roche-Posay Anthelios",
@@ -214,7 +214,7 @@ export const TREND_DATA: TrendEntry[] = [
     dataSources: ["Google Trends seasonal spike", "r/SkincareAddiction", "Beautypedia"],
     notes: "HUGE seasonal demand. Sunscreen searches spike 400% March-June. Science-based angle differentiates from beauty bloggers.",
     lastScanned: "2026-04-03",
-    hasArticle: false,
+    hasArticle: true,
   },
   {
     product: "Dyson Airwrap / Supersonic",
@@ -231,7 +231,7 @@ export const TREND_DATA: TrendEntry[] = [
     dataSources: ["Google Trends", "r/HaircareScience", "YouTube view counts"],
     notes: "Shark FlexStyle at half the price is the disruptor story. 'Worth it' angle has strong buyer intent.",
     lastScanned: "2026-04-03",
-    hasArticle: false,
+    hasArticle: true,
   },
 ];
 
