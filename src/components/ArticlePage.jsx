@@ -377,7 +377,7 @@ export default function ArticlePage({ article }) {
           Selectoire
         </Link>
         <div style={{ display: "flex", gap: "24px" }}>
-          {["Watches", "Tech", "Fashion", "Grooming"].map((item) => (
+          {["Watches", "Tech", "Fashion", "Grooming", "Home"].map((item) => (
             <Link
               key={item}
               href={`/${item.toLowerCase()}`}

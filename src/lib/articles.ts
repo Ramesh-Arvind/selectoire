@@ -1,17 +1,19 @@
 import { watchArticles } from "./articles/watches";
 import { techArticles } from "./articles/tech";
 import { fashionArticles } from "./articles/fashion";
+import { fashion2Articles } from "./articles/fashion2";
 import { groomingArticles } from "./articles/grooming";
 import { crossoverArticles } from "./articles/crossover";
 import { trendingArticles } from "./articles/trending";
 import { trending2Articles } from "./articles/trending2";
 import { trending3Articles } from "./articles/trending3";
+import { homeArticles } from "./articles/home";
 
 export type Article = {
   slug: string;
   title: string;
   excerpt: string;
-  category: "watches" | "tech" | "fashion" | "grooming";
+  category: "watches" | "tech" | "fashion" | "grooming" | "home";
   subcategory: string;
   type: "comparison" | "review" | "buying-guide" | "roundup";
   keywords: string[];
@@ -81,6 +83,18 @@ export const CATEGORIES = {
     ],
     icon: "✨",
   },
+  home: {
+    name: "Home & Desk",
+    slug: "home",
+    description:
+      "Office chairs, standing desks, and premium workspace gear — upgrade where you spend your hours.",
+    subcategories: [
+      "office-furniture",
+      "desk-accessories",
+      "smart-home",
+    ],
+    icon: "🏠",
+  },
 };
 
 // Combine all articles from category files
@@ -88,11 +102,13 @@ export const ARTICLES: Article[] = [
   ...watchArticles,
   ...techArticles,
   ...fashionArticles,
+  ...fashion2Articles,
   ...groomingArticles,
   ...crossoverArticles,
   ...trendingArticles,
   ...trending2Articles,
   ...trending3Articles,
+  ...homeArticles,
 ];
 
 export function getArticlesByCategory(category: string): Article[] {

@@ -31,6 +31,13 @@ const SECTORS = [
     count: "15 selections",
     image: "✨",
   },
+  {
+    id: "home",
+    title: "Home & Desk",
+    subtitle: "Upgrade where you spend your hours",
+    count: "10 selections",
+    image: "🏠",
+  },
 ];
 
 function FadeIn({ children, delay = 0, className = "" }) {
@@ -241,7 +248,7 @@ export default function SelectoireHomepage() {
             </span>
           </div>
           <div style={{ display: "flex", gap: "32px", alignItems: "center" }}>
-            {["Watches", "Tech", "Fashion", "Grooming"].map((item) => (
+            {["Watches", "Tech", "Fashion", "Grooming", "Home"].map((item) => (
               <Link
                 key={item}
                 href={`/${item.toLowerCase()}`}
