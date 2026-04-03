@@ -3,6 +3,7 @@ import { techArticles } from "./articles/tech";
 import { fashionArticles } from "./articles/fashion";
 import { groomingArticles } from "./articles/grooming";
 import { crossoverArticles } from "./articles/crossover";
+import { trendingArticles } from "./articles/trending";
 
 export type Article = {
   slug: string;
@@ -87,6 +88,7 @@ export const ARTICLES: Article[] = [
   ...fashionArticles,
   ...groomingArticles,
   ...crossoverArticles,
+  ...trendingArticles,
 ];
 
 export function getArticlesByCategory(category: string): Article[] {

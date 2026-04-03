@@ -1,4 +1,6 @@
 import { useState, useEffect, useRef } from "react";
+import Link from "next/link";
+import NewsletterSignup from "./components/NewsletterSignup";
 
 const SECTORS = [
   {
@@ -162,93 +164,6 @@ function SectorCard({ sector, index }) {
   );
 }
 
-function EmailSignup() {
-  const [email, setEmail] = useState("");
-  const [submitted, setSubmitted] = useState(false);
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    if (email.includes("@")) {
-      setSubmitted(true);
-    }
-  };
-
-  return (
-    <div style={{ maxWidth: "480px", margin: "0 auto" }}>
-      {submitted ? (
-        <div
-          style={{
-            textAlign: "center",
-            padding: "20px",
-            background: "rgba(180,160,120,0.08)",
-            borderRadius: "4px",
-          }}
-        >
-          <p
-            style={{
-              fontFamily: "'Cormorant Garamond', Georgia, serif",
-              fontSize: "20px",
-              color: "#1a1a18",
-              margin: 0,
-            }}
-          >
-            Welcome to Selectoire.
-          </p>
-          <p
-            style={{
-              fontFamily: "'DM Sans', sans-serif",
-              fontSize: "13px",
-              color: "#8a8578",
-              marginTop: "8px",
-            }}
-          >
-            Your first curated selection arrives soon.
-          </p>
-        </div>
-      ) : (
-        <div style={{ display: "flex", gap: "8px" }}>
-          <input
-            type="email"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-            placeholder="your@email.com"
-            style={{
-              flex: 1,
-              padding: "14px 18px",
-              border: "1px solid rgba(180,160,120,0.25)",
-              borderRadius: "2px",
-              background: "rgba(255,255,255,0.6)",
-              fontFamily: "'DM Sans', sans-serif",
-              fontSize: "14px",
-              color: "#1a1a18",
-              outline: "none",
-              letterSpacing: "0.02em",
-            }}
-          />
-          <button
-            onClick={handleSubmit}
-            style={{
-              padding: "14px 28px",
-              background: "#1a1a18",
-              color: "#f5f0e8",
-              border: "none",
-              borderRadius: "2px",
-              fontFamily: "'DM Sans', sans-serif",
-              fontSize: "12px",
-              fontWeight: 500,
-              letterSpacing: "0.1em",
-              textTransform: "uppercase",
-              cursor: "pointer",
-            }}
-          >
-            Subscribe
-          </button>
-        </div>
-      )}
-    </div>
-  );
-}
-
 export default function SelectoireHomepage() {
   const [loaded, setLoaded] = useState(false);
 
@@ -327,9 +242,9 @@ export default function SelectoireHomepage() {
           </div>
           <div style={{ display: "flex", gap: "32px", alignItems: "center" }}>
             {["Watches", "Tech", "Fashion", "Grooming"].map((item) => (
-              <a
+              <Link
                 key={item}
-                href={`#${item.toLowerCase()}`}
+                href={`/${item.toLowerCase()}`}
                 style={{
                   fontSize: "12px",
                   color: "#8a8578",
@@ -339,11 +254,9 @@ export default function SelectoireHomepage() {
                   fontWeight: 500,
                   transition: "color 0.3s",
                 }}
-                onMouseEnter={(e) => (e.target.style.color = "#1a1a18")}
-                onMouseLeave={(e) => (e.target.style.color = "#8a8578")}
               >
                 {item}
-              </a>
+              </Link>
             ))}
           </div>
         </nav>
@@ -406,7 +319,7 @@ export default function SelectoireHomepage() {
             </p>
           </FadeIn>
           <FadeIn delay={900}>
-            <EmailSignup />
+            <NewsletterSignup variant="inline" />
           </FadeIn>
         </section>
 
@@ -536,7 +449,9 @@ export default function SelectoireHomepage() {
             }}
           >
             {SECTORS.map((sector, i) => (
-              <SectorCard key={sector.id} sector={sector} index={i} />
+              <Link key={sector.id} href={`/${sector.id}`} style={{ textDecoration: "none", color: "inherit" }}>
+                <SectorCard sector={sector} index={i} />
+              </Link>
             ))}
           </div>
         </section>
@@ -575,7 +490,7 @@ export default function SelectoireHomepage() {
               Join early to receive our Spring/Summer 2026 selections before
               anyone else. Honest reviews, no sponsored content, no noise.
             </p>
-            <EmailSignup />
+            <NewsletterSignup variant="inline" />
           </FadeIn>
         </section>
 

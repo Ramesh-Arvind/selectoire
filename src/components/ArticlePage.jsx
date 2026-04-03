@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import NewsletterSignup from "./NewsletterSignup";
 
 function StarRating({ rating }) {
   const full = Math.floor(rating);
@@ -503,6 +504,9 @@ export default function ArticlePage({ article }) {
           </section>
         ))}
 
+        {/* Inline Newsletter Signup — after content, before products */}
+        <NewsletterSignup variant="inline" />
+
         {/* Product Cards */}
         <div
           style={{
@@ -520,6 +524,9 @@ export default function ArticlePage({ article }) {
 
         {/* FAQ */}
         {article.faq.length > 0 && <FAQSection faq={article.faq} />}
+
+        {/* Banner Newsletter Signup — after FAQ */}
+        <NewsletterSignup variant="banner" />
 
         {/* Affiliate Disclosure Footer */}
         <div
