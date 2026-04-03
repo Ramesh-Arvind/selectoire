@@ -26,7 +26,8 @@ export const home2Articles: Article[] = [
         price: "$750",
         image: "/images/products/breville-barista-express.jpg",
         rating: 4.6,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/s?k=Breville+Barista+Express+Impress&tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/s?k=Breville+Barista+Express+Impress&tag=selectoire-21",
         affiliateProgram: "Amazon Associates",
         pros: [
           "Built-in conical burr grinder — complete bean-to-cup system",
@@ -46,7 +47,8 @@ export const home2Articles: Article[] = [
         price: "$500",
         image: "/images/products/breville-bambino-plus.jpg",
         rating: 4.5,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/s?k=Breville+Bambino+Plus&tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/s?k=Breville+Bambino+Plus&tag=selectoire-21",
         affiliateProgram: "Amazon Associates",
         pros: [
           "Compact footprint — fits in any kitchen",
@@ -66,7 +68,8 @@ export const home2Articles: Article[] = [
         price: "$450",
         image: "/images/products/gaggia-classic-pro.jpg",
         rating: 4.4,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/s?k=Gaggia+Classic+Pro&tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/s?k=Gaggia+Classic+Pro&tag=selectoire-21",
         affiliateProgram: "Amazon Associates",
         pros: [
           "Commercial 58mm portafilter — uses industry-standard baskets",
@@ -86,7 +89,8 @@ export const home2Articles: Article[] = [
         price: "$650",
         image: "/images/products/lelit-anna.jpg",
         rating: 4.5,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/s?k=Lelit+Anna+PL41TEM&tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/s?k=Lelit+Anna+PL41TEM&tag=selectoire-21",
         affiliateProgram: "Amazon Associates",
         pros: [
           "Built-in PID temperature controller — precise control without mods",
@@ -106,7 +110,8 @@ export const home2Articles: Article[] = [
         price: "$1,500",
         image: "/images/products/breville-dual-boiler.jpg",
         rating: 4.7,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/s?k=Breville+Dual+Boiler&tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/s?k=Breville+Dual+Boiler&tag=selectoire-21",
         affiliateProgram: "Amazon Associates",
         pros: [
           "True dual boiler — brew and steam simultaneously with zero wait",
@@ -220,7 +225,8 @@ The pre-infusion feature soaks grounds at low pressure before ramping to full 9 
         price: "$1,500",
         image: "/images/products/lg-40wp95c.jpg",
         rating: 4.7,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/s?k=LG+40WP95C-W+(40\&tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/s?k=LG+40WP95C-W+(40\&tag=selectoire-21",
         affiliateProgram: "Amazon Associates",
         pros: [
           "5120x2160 resolution — text is razor-sharp at any scaling",
@@ -240,7 +246,8 @@ The pre-infusion feature soaks grounds at low pressure before ramping to full 9 
         price: "$620",
         image: "/images/products/dell-u3423we.jpg",
         rating: 4.5,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/s?k=Dell+U3423WE+(34\&tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/s?k=Dell+U3423WE+(34\&tag=selectoire-21",
         affiliateProgram: "Amazon Associates",
         pros: [
           "Best value productivity ultrawide — $620 for excellent quality",
@@ -260,7 +267,8 @@ The pre-infusion feature soaks grounds at low pressure before ramping to full 9 
         price: "$1,300",
         image: "/images/products/samsung-g9-oled.jpg",
         rating: 4.4,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/s?k=Samsung+Odyssey+OLED+G9+(49\&tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/s?k=Samsung+Odyssey+OLED+G9+(49\&tag=selectoire-21",
         affiliateProgram: "Amazon Associates",
         pros: [
           "49\" = two 27\" monitors without the bezel gap in the middle",

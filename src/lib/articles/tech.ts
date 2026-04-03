@@ -26,7 +26,8 @@ export const techArticles: Article[] = [
         price: "€399",
         image: "/images/products/sony-xm6.jpg",
         rating: 4.7,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/dp/B0CZQZ4KXZ?tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/dp/B0CZQZ4KXZ?tag=selectoire-21",
         affiliateProgram: "Amazon Associates",
         pros: [
           "Best-in-class ANC — measurably blocks more noise than any competitor",
@@ -46,7 +47,8 @@ export const techArticles: Article[] = [
         price: "€449",
         image: "/images/products/bose-qc-ultra.jpg",
         rating: 4.6,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/dp/B0CCZ1L489?tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/dp/B0CCZ1L489?tag=selectoire-21",
         affiliateProgram: "Amazon Associates",
         pros: [
           "Most comfortable headphones for all-day wear — period",
@@ -170,7 +172,8 @@ export const techArticles: Article[] = [
         price: "€1,799",
         image: "/images/products/fujifilm-x100vi.jpg",
         rating: 4.8,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/dp/B0CVRK7B68?tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/dp/B0CVRK7B68?tag=selectoire-21",
         affiliateProgram: "B&H Photo",
         pros: [
           "40MP X-Trans CMOS 5 HR sensor — stunning image quality",
@@ -284,7 +287,8 @@ Build quality is solid aluminum and magnesium alloy. The hybrid optical/electron
         price: "€399",
         image: "/images/products/sony-xm6.jpg",
         rating: 4.7,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/dp/B0CZQZ4KXZ?tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/dp/B0CZQZ4KXZ?tag=selectoire-21",
         affiliateProgram: "Amazon Associates",
         pros: [
           "Best ANC for blocking office/cafe noise",
@@ -302,7 +306,8 @@ Build quality is solid aluminum and magnesium alloy. The hybrid optical/electron
         price: "€449",
         image: "/images/products/bose-qc-ultra.jpg",
         rating: 4.6,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/dp/B0CCZ1L489?tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/dp/B0CCZ1L489?tag=selectoire-21",
         affiliateProgram: "Amazon Associates",
         pros: [
           "Most comfortable for all-day wear",
@@ -320,7 +325,8 @@ Build quality is solid aluminum and magnesium alloy. The hybrid optical/electron
         price: "€549",
         image: "/images/products/airpods-max-2.jpg",
         rating: 4.5,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/dp/B0DJYGRKMH?tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/dp/B0DJYGRKMH?tag=selectoire-21",
         affiliateProgram: "Amazon Associates",
         pros: [
           "Seamless Apple ecosystem integration",
@@ -339,7 +345,8 @@ Build quality is solid aluminum and magnesium alloy. The hybrid optical/electron
         price: "€349",
         image: "/images/products/sennheiser-momentum4.jpg",
         rating: 4.4,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/s?k=Sennheiser+Momentum+4&tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/s?k=Sennheiser+Momentum+4&tag=selectoire-21",
         affiliateProgram: "Amazon Associates",
         pros: [
           "Best pure sound quality in this tier",
@@ -357,7 +364,8 @@ Build quality is solid aluminum and magnesium alloy. The hybrid optical/electron
         price: "€379",
         image: "/images/products/jabra-evolve2-85.jpg",
         rating: 4.3,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/s?k=Jabra+Evolve2+85&tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/s?k=Jabra+Evolve2+85&tag=selectoire-21",
         affiliateProgram: "Amazon Associates",
         pros: [
           "Designed specifically for professional calls",

@@ -26,7 +26,8 @@ export const tech2Articles: Article[] = [
         price: "$999",
         image: "/images/products/sonos-arc-ultra.jpg",
         rating: 4.7,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/s?k=Sonos+Arc+Ultra&tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/s?k=Sonos+Arc+Ultra&tag=selectoire-21",
         affiliateProgram: "Amazon Associates",
         pros: [
           "Sound Motion technology creates room-filling Dolby Atmos from a single bar",
@@ -46,7 +47,8 @@ export const tech2Articles: Article[] = [
         price: "$1,300",
         image: "/images/products/sennheiser-ambeo-plus.jpg",
         rating: 4.6,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/s?k=Sennheiser+Ambeo+Soundbar+Plus&tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/s?k=Sennheiser+Ambeo+Soundbar+Plus&tag=selectoire-21",
         affiliateProgram: "Amazon Associates",
         pros: [
           "7.1.4 virtual Dolby Atmos creates the widest soundstage of any soundbar",
@@ -169,7 +171,8 @@ If you're going all-in with rear speakers, Sonos's ecosystem makes adding them s
         price: "$279",
         image: "/images/products/shure-mv7plus.jpg",
         rating: 4.7,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/s?k=Shure+MV7+&tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/s?k=Shure+MV7+&tag=selectoire-21",
         affiliateProgram: "Amazon Associates",
         pros: [
           "USB-C and XLR dual output — grows with your setup",
@@ -189,7 +192,8 @@ If you're going all-in with rear speakers, Sonos's ecosystem makes adding them s
         price: "$199",
         image: "/images/products/rode-podmic-usb.jpg",
         rating: 4.5,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/s?k=Rode+PodMic+USB&tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/s?k=Rode+PodMic+USB&tag=selectoire-21",
         affiliateProgram: "Amazon Associates",
         pros: [
           "Best value in the podcast mic market — sounds like a $400 mic",
@@ -209,7 +213,8 @@ If you're going all-in with rear speakers, Sonos's ecosystem makes adding them s
         price: "$149",
         image: "/images/products/elgato-wave-dx.jpg",
         rating: 4.3,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/s?k=Elgato+Wave+DX&tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/s?k=Elgato+Wave+DX&tag=selectoire-21",
         affiliateProgram: "Amazon Associates",
         pros: [
           "Best budget option that doesn't sound budget",

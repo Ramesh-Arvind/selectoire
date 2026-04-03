@@ -26,7 +26,8 @@ export const fashionArticles: Article[] = [
         price: "$340",
         image: "/images/products/red-wing-iron-ranger.jpg",
         rating: 4.7,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/s?k=Red+Wing+Iron+Ranger+8111&tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/s?k=Red+Wing+Iron+Ranger+8111&tag=selectoire-21",
         affiliateProgram: "Amazon Associates",
         pros: [
           "Goodyear welt — fully resoleable for decades of wear",
@@ -46,7 +47,8 @@ export const fashionArticles: Article[] = [
         price: "$199",
         image: "/images/products/thursday-captain.jpg",
         rating: 4.4,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/s?k=Thursday+Captain+Boot&tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/s?k=Thursday+Captain+Boot&tag=selectoire-21",
         affiliateProgram: "Amazon Associates",
         pros: [
           "Best value in the boot market — Goodyear welt at $199",
@@ -66,7 +68,8 @@ export const fashionArticles: Article[] = [
         price: "$360",
         image: "/images/products/grant-stone-diesel.jpg",
         rating: 4.6,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/s?k=Grant+Stone+Diesel+Boot&tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/s?k=Grant+Stone+Diesel+Boot&tag=selectoire-21",
         affiliateProgram: "Amazon Associates",
         pros: [
           "Horween Chromexcel leather — the gold standard",
@@ -85,7 +88,8 @@ export const fashionArticles: Article[] = [
         price: "$400",
         image: "/images/products/wolverine-1000-mile.jpg",
         rating: 4.3,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/s?k=Wolverine+1000+Mile&tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/s?k=Wolverine+1000+Mile&tag=selectoire-21",
         affiliateProgram: "Amazon Associates",
         pros: [
           "Horween Chromexcel leather — gorgeous color depth",
@@ -105,7 +109,8 @@ export const fashionArticles: Article[] = [
         price: "$250",
         image: "/images/products/blundstone-1609.jpg",
         rating: 4.3,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/s?k=Blundstone+1609&tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/s?k=Blundstone+1609&tag=selectoire-21",
         affiliateProgram: "Amazon Associates",
         pros: [
           "No laces — pull-on ease is unbeatable",

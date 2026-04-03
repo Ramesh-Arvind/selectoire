@@ -26,7 +26,8 @@ export const watchArticles: Article[] = [
         price: "€3,800",
         image: "/images/products/tudor-bb58.jpg",
         rating: 4.7,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/dp/B07WGPWGM4?tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/dp/B07WGPWGM4?tag=selectoire-21",
         affiliateProgram: "Chrono24",
         pros: [
           "In-house MT5402 movement with 70h power reserve",
@@ -46,7 +47,8 @@ export const watchArticles: Article[] = [
         price: "€395",
         image: "/images/products/tissot-prx.jpg",
         rating: 4.5,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/dp/B0CJ8KRLP7?tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/dp/B0CJ8KRLP7?tag=selectoire-21",
         affiliateProgram: "Amazon Associates",
         pros: [
           "Incredible value — Powermatic 80 movement at this price",
@@ -156,7 +158,8 @@ But if you're a serious watch enthusiast looking for a piece that holds its valu
         price: "€3,800",
         image: "/images/products/tudor-bb58.jpg",
         rating: 4.7,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/dp/B07WGPWGM4?tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/dp/B07WGPWGM4?tag=selectoire-21",
         affiliateProgram: "Chrono24",
         pros: [
           "Perfect 39mm vintage size",
@@ -175,7 +178,8 @@ But if you're a serious watch enthusiast looking for a piece that holds its valu
         price: "€4,800",
         image: "/images/products/omega-seamaster.jpg",
         rating: 4.8,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/dp/B08L5LGFKX?tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/dp/B08L5LGFKX?tag=selectoire-21",
         affiliateProgram: "Chrono24",
         pros: [
           "Co-Axial Master Chronometer — antimagnetic to 15,000 gauss",
@@ -194,7 +198,8 @@ But if you're a serious watch enthusiast looking for a piece that holds its valu
         price: "€1,100",
         image: "/images/products/seiko-spb143.jpg",
         rating: 4.4,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/s?k=Seiko+Prospex+SPB143+(62MAS+Reissue)&tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/s?k=Seiko+Prospex+SPB143+(62MAS+Reissue)&tag=selectoire-21",
         affiliateProgram: "Amazon Associates",
         pros: [
           "6R35 movement with 70h power reserve",
@@ -213,7 +218,8 @@ But if you're a serious watch enthusiast looking for a piece that holds its valu
         price: "€1,350",
         image: "/images/products/longines-hydroconquest.jpg",
         rating: 4.3,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/s?k=Longines+HydroConquest&tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/s?k=Longines+HydroConquest&tag=selectoire-21",
         affiliateProgram: "Jomashop",
         pros: [
           "Swatch Group L888 movement (ETA base, 72h reserve)",
@@ -232,7 +238,8 @@ But if you're a serious watch enthusiast looking for a piece that holds its valu
         price: "€2,100",
         image: "/images/products/oris-aquis.jpg",
         rating: 4.5,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/s?k=Oris+Aquis+Date+41.5mm&tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/s?k=Oris+Aquis+Date+41.5mm&tag=selectoire-21",
         affiliateProgram: "Chrono24",
         pros: [
           "Independent Swiss brand — no conglomerate ownership",
@@ -251,7 +258,8 @@ But if you're a serious watch enthusiast looking for a piece that holds its valu
         price: "€995",
         image: "/images/products/cw-sealander.jpg",
         rating: 4.3,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/s?k=Christopher+Ward+Sealander+GMT&tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/s?k=Christopher+Ward+Sealander+GMT&tag=selectoire-21",
         affiliateProgram: "Amazon Associates",
         pros: [
           "True GMT with independently adjustable hour hand",

@@ -26,7 +26,8 @@ export const sgArticles: Article[] = [
         price: "SGD 5,250 (~€3,600)",
         image: "/images/products/tudor-bb58.jpg",
         rating: 4.7,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/s?k=Tudor+Black+Bay+58+(Singapore+Price)&tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/s?k=Tudor+Black+Bay+58+(Singapore+Price)&tag=selectoire-21",
         affiliateProgram: "Chrono24",
         pros: [
           "No GST for tourists (9% refund via GST Refund Scheme)",
@@ -45,7 +46,8 @@ export const sgArticles: Article[] = [
         price: "SGD 10,100 (~€6,930)",
         image: "/images/products/omega-speedmaster.jpg",
         rating: 4.9,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/s?k=Omega+Speedmaster+Professional+(Singapore+Price)&tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/s?k=Omega+Speedmaster+Professional+(Singapore+Price)&tag=selectoire-21",
         affiliateProgram: "Chrono24",
         pros: [
           "Multiple Omega boutiques: ION Orchard, Marina Bay Sands, Changi Airport",
@@ -64,7 +66,8 @@ export const sgArticles: Article[] = [
         price: "SGD 12,500 (~€8,580)",
         image: "/images/products/grand-seiko-white-birch.jpg",
         rating: 4.8,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/s?k=Grand+Seiko+SLGH005+(White+Birch)&tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/s?k=Grand+Seiko+SLGH005+(White+Birch)&tag=selectoire-21",
         affiliateProgram: "Amazon Associates",
         pros: [
           "Singapore has the best Grand Seiko selection outside Japan",

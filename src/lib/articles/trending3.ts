@@ -26,7 +26,8 @@ export const trending3Articles: Article[] = [
         price: "$379",
         image: "/images/products/rayban-meta.jpg",
         rating: 4.3,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/dp/B0CGXKCBX1?tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/dp/B0CGXKCBX1?tag=selectoire-21",
         affiliateProgram: "Amazon Associates",
         pros: [
           "Looks like actual Ray-Bans — nobody knows they're smart glasses",
@@ -143,7 +144,8 @@ This matters more than any spec. The best technology is technology you actually 
         price: "$150",
         image: "/images/products/gh-bass-weejuns.jpg",
         rating: 4.3,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/s?k=G.H.+Bass+Weejuns+Larson+Penny+Loafer&tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/s?k=G.H.+Bass+Weejuns+Larson+Penny+Loafer&tag=selectoire-21",
         affiliateProgram: "Amazon Associates",
         pros: [
           "The original penny loafer — designed in 1936",
@@ -163,7 +165,8 @@ This matters more than any spec. The best technology is technology you actually 
         price: "$595",
         image: "/images/products/alden-loafer.jpg",
         rating: 4.6,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/s?k=Alden+Leisure+Handsewn+Loafer&tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/s?k=Alden+Leisure+Handsewn+Loafer&tag=selectoire-21",
         affiliateProgram: "Amazon Associates",
         pros: [
           "Genuine handsewn construction in New England",
@@ -183,7 +186,8 @@ This matters more than any spec. The best technology is technology you actually 
         price: "$425",
         image: "/images/products/carmina-loafer.jpg",
         rating: 4.5,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/s?k=Carmina+Penny+Loafer+(Rain+Last)&tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/s?k=Carmina+Penny+Loafer+(Rain+Last)&tag=selectoire-21",
         affiliateProgram: "Amazon Associates",
         pros: [
           "Goodyear-welted — fully resoleable for decade of wear",
@@ -202,7 +206,8 @@ This matters more than any spec. The best technology is technology you actually 
         price: "$380",
         image: "/images/products/jacques-soloviere.jpg",
         rating: 4.4,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/s?k=Jacques+Solovière+Sagamore+Loafer&tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/s?k=Jacques+Solovière+Sagamore+Loafer&tag=selectoire-21",
         affiliateProgram: "Amazon Associates",
         pros: [
           "French-designed with Italian manufacturing",
@@ -221,7 +226,8 @@ This matters more than any spec. The best technology is technology you actually 
         price: "$1,490",
         image: "/images/products/loro-piana-summer-walk.jpg",
         rating: 4.7,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/s?k=Loro+Piana+Summer+Walk&tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/s?k=Loro+Piana+Summer+Walk&tag=selectoire-21",
         affiliateProgram: "Amazon Associates",
         pros: [
           "The defining luxury loafer of the decade",
@@ -343,7 +349,8 @@ And honestly? **It's a magical shoe.** The Loro Piana suede is from their own ta
         price: "$600",
         image: "/images/products/dyson-airwrap.jpg",
         rating: 4.5,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/dp/B0CSHD7LV7?tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/dp/B0CSHD7LV7?tag=selectoire-21",
         affiliateProgram: "Amazon Associates",
         pros: [
           "Coanda effect technology — wraps and styles with air, not extreme heat",
@@ -363,7 +370,8 @@ And honestly? **It's a magical shoe.** The Loro Piana suede is from their own ta
         price: "$300",
         image: "/images/products/shark-flexstyle.jpg",
         rating: 4.3,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/dp/B0CD93CKDQ?tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/dp/B0CD93CKDQ?tag=selectoire-21",
         affiliateProgram: "Amazon Associates",
         pros: [
           "Half the price of Dyson — the clear value play",

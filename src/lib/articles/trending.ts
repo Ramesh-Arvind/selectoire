@@ -27,7 +27,8 @@ export const trendingArticles: Article[] = [
         price: "$36",
         image: "/images/products/lrp-anthelios.jpg",
         rating: 4.8,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/s?k=La+Roche-Posay+Anthelios+Melt-In+SPF+100&tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/s?k=La+Roche-Posay+Anthelios+Melt-In+SPF+100&tag=selectoire-21",
         affiliateProgram: "Amazon Associates",
         pros: [
           "Highest UV protection you can buy (SPF 100, PA++++)",
@@ -46,7 +47,8 @@ export const trendingArticles: Article[] = [
         price: "$38",
         image: "/images/products/supergoop-unseen.jpg",
         rating: 4.6,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/s?k=Supergoop!+Unseen+Sunscreen+SPF+40&tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/s?k=Supergoop!+Unseen+Sunscreen+SPF+40&tag=selectoire-21",
         affiliateProgram: "Sephora",
         pros: [
           "Completely clear, oil-free, and weightless",
@@ -65,7 +67,8 @@ export const trendingArticles: Article[] = [
         price: "$12",
         image: "/images/products/beauty-joseon-sun.jpg",
         rating: 4.5,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/s?k=Beauty+of+Joseon+Relief+Sun+SPF+50+&tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/s?k=Beauty+of+Joseon+Relief+Sun+SPF+50+&tag=selectoire-21",
         affiliateProgram: "Amazon Associates",
         pros: [
           "Best value — $12 for SPF 50+ PA++++ protection",
@@ -84,7 +87,8 @@ export const trendingArticles: Article[] = [
         price: "$42",
         image: "/images/products/eltamd-uv-clear.jpg",
         rating: 4.7,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/s?k=EltaMD+UV+Clear+SPF+46&tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/s?k=EltaMD+UV+Clear+SPF+46&tag=selectoire-21",
         affiliateProgram: "Amazon Associates",
         pros: [
           "Contains niacinamide — actively improves skin while protecting",
@@ -103,7 +107,8 @@ export const trendingArticles: Article[] = [
         price: "$14",
         image: "/images/products/biore-uv-aqua.jpg",
         rating: 4.4,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/s?k=Biore+UV+Aqua+Rich+Watery+Essence+SPF+50+&tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/s?k=Biore+UV+Aqua+Rich+Watery+Essence+SPF+50+&tag=selectoire-21",
         affiliateProgram: "Amazon Associates",
         pros: [
           "Watery, almost serum-like texture — most cosmetically elegant option",
@@ -216,7 +221,8 @@ This is the only sunscreen on our list that improves your skin condition while p
         price: "$190",
         image: "/images/products/salomon-xt6.jpg",
         rating: 4.6,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/dp/B09TKMYB7F?tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/dp/B09TKMYB7F?tag=selectoire-21",
         affiliateProgram: "Amazon Associates",
         pros: [
           "Genuine trail performance — not just fashion",
@@ -236,7 +242,8 @@ This is the only sunscreen on our list that improves your skin condition while p
         price: "$150",
         image: "/images/products/nb-2002r.jpg",
         rating: 4.7,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/dp/B0B6G5G6F6?tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/dp/B0B6G5G6F6?tag=selectoire-21",
         affiliateProgram: "Amazon Associates",
         pros: [
           "ABZORB midsole — cloud-like comfort for all-day wear",
@@ -256,7 +263,8 @@ This is the only sunscreen on our list that improves your skin condition while p
         price: "$160",
         image: "/images/products/asics-kayano-14.jpg",
         rating: 4.5,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/dp/B0BVFB22NK?tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/dp/B0BVFB22NK?tag=selectoire-21",
         affiliateProgram: "Amazon Associates",
         pros: [
           "GEL technology cushioning is unmatched for impact absorption",
@@ -376,7 +384,8 @@ But gorpcore has matured. It's no longer enough to just look technical. The best
         price: "$549",
         image: "/images/products/airpods-max-2.jpg",
         rating: 4.5,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/dp/B0DJYGRKMH?tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/dp/B0DJYGRKMH?tag=selectoire-21",
         affiliateProgram: "Amazon Associates",
         pros: [
           "Seamless Apple ecosystem integration — automatic switching actually works",
@@ -502,7 +511,8 @@ None of these features matter if you're on Android. All of them matter significa
         price: "€3,150",
         image: "/images/products/cartier-tank.jpg",
         rating: 4.7,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/dp/B09XK3DHSZ?tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/dp/B09XK3DHSZ?tag=selectoire-21",
         affiliateProgram: "Chrono24",
         pros: [
           "One of the most recognizable watch designs in history — since 1917",
@@ -522,7 +532,8 @@ None of these features matter if you're on Android. All of them matter significa
         price: "€6,400",
         image: "/images/products/jlc-reverso.jpg",
         rating: 4.8,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/dp/B004KY8FME?tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/dp/B004KY8FME?tag=selectoire-21",
         affiliateProgram: "Chrono24",
         pros: [
           "Iconic reversible case — invented for polo players in 1931",
@@ -638,7 +649,8 @@ None of these features matter if you're on Android. All of them matter significa
         price: "€260 (125ml)",
         image: "/images/products/pdm-layton.jpg",
         rating: 4.7,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/dp/B01MU7XTUZ?tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/dp/B01MU7XTUZ?tag=selectoire-21",
         affiliateProgram: "FragranceNet",
         pros: [
           "Apple-vanilla-cardamom DNA is universally appealing",
@@ -658,7 +670,8 @@ None of these features matter if you're on Android. All of them matter significa
         price: "€115 (100ml)",
         image: "/images/products/dior-sauvage.jpg",
         rating: 4.4,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/dp/B07DFXNBJW?tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/dp/B07DFXNBJW?tag=selectoire-21",
         affiliateProgram: "Sephora",
         pros: [
           "The world's best-selling men's fragrance — universally safe",

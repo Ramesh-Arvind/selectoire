@@ -26,7 +26,8 @@ export const groomingArticles: Article[] = [
         price: "€310 (70ml)",
         image: "/images/products/mfk-br540.jpg",
         rating: 4.8,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/dp/B06XBCWP3M?tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/dp/B06XBCWP3M?tag=selectoire-21",
         affiliateProgram: "FragranceNet",
         pros: [
           "One of the most complimented fragrances ever created",
@@ -46,7 +47,8 @@ export const groomingArticles: Article[] = [
         price: "€290 (50ml)",
         image: "/images/products/le-labo-santal-33.jpg",
         rating: 4.6,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/dp/B00SWKKKRA?tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/dp/B00SWKKKRA?tag=selectoire-21",
         affiliateProgram: "FragranceNet",
         pros: [
           "The defining niche fragrance of New York creative culture",
@@ -184,7 +186,8 @@ The genius of Santal 33 is its contradictions: it's smoky but clean, woody but f
         price: "€380 (100ml)",
         image: "/images/products/creed-aventus.jpg",
         rating: 4.7,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/dp/B00HV8020Q?tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/dp/B00HV8020Q?tag=selectoire-21",
         affiliateProgram: "FragranceNet",
         pros: [
           "The most complimented men's fragrance in the world",
@@ -204,7 +207,8 @@ The genius of Santal 33 is its contradictions: it's smoky but clean, woody but f
         price: "€340 (50ml)",
         image: "/images/products/tom-ford-oud-wood.jpg",
         rating: 4.6,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/dp/B0018OHBUU?tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/dp/B0018OHBUU?tag=selectoire-21",
         affiliateProgram: "FragranceNet",
         pros: [
           "Sophisticated oud interpretation — approachable, not harsh",

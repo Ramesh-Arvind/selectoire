@@ -26,7 +26,8 @@ export const uaeArticles: Article[] = [
         price: "AED 14,500 (~€3,650)",
         image: "/images/products/tudor-bb58.jpg",
         rating: 4.7,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/s?k=Tudor+Black+Bay+58+(Dubai+Price)&tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/s?k=Tudor+Black+Bay+58+(Dubai+Price)&tag=selectoire-21",
         affiliateProgram: "Chrono24",
         pros: [
           "AED 14,500 in Dubai vs €3,800 in Europe — save ~€150",
@@ -45,7 +46,8 @@ export const uaeArticles: Article[] = [
         price: "AED 27,300 (~€6,850)",
         image: "/images/products/omega-speedmaster.jpg",
         rating: 4.9,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/s?k=Omega+Speedmaster+Professional+(Dubai+Price)&tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/s?k=Omega+Speedmaster+Professional+(Dubai+Price)&tag=selectoire-21",
         affiliateProgram: "Chrono24",
         pros: [
           "AED 27,300 vs €7,100 in Europe — save ~€250",
@@ -64,7 +66,8 @@ export const uaeArticles: Article[] = [
         price: "AED 12,100 (~€3,050)",
         image: "/images/products/cartier-tank.jpg",
         rating: 4.7,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/s?k=Cartier+Tank+Must+(Dubai+Price)&tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/s?k=Cartier+Tank+Must+(Dubai+Price)&tag=selectoire-21",
         affiliateProgram: "Chrono24",
         pros: [
           "AED 12,100 vs €3,150 in Europe — save ~€100 plus VAT refund",
@@ -204,7 +207,8 @@ USA: $3,550 (~€3,275)
         price: "AED 850 (~$230)",
         image: "/images/products/amouage-reflection.jpg",
         rating: 4.7,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/s?k=Amouage+Reflection+Man+EDP&tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/s?k=Amouage+Reflection+Man+EDP&tag=selectoire-21",
         affiliateProgram: "FragranceNet",
         pros: [
           "Omani house that understands Gulf climate — designed for heat",
@@ -223,7 +227,8 @@ USA: $3,550 (~€3,275)
         price: "AED 120 (~$33)",
         image: "/images/products/rasasi-hawas.jpg",
         rating: 4.4,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/s?k=Rasasi+Hawas+EDP&tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/s?k=Rasasi+Hawas+EDP&tag=selectoire-21",
         affiliateProgram: "Amazon Associates",
         pros: [
           "UAE-made, designed specifically for Gulf climate",
@@ -242,7 +247,8 @@ USA: $3,550 (~€3,275)
         price: "AED 920 (~$250)",
         image: "/images/products/mfk-aqua-universalis.jpg",
         rating: 4.6,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/s?k=Maison+Francis+Kurkdjian+Aqua+Universalis&tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/s?k=Maison+Francis+Kurkdjian+Aqua+Universalis&tag=selectoire-21",
         affiliateProgram: "Sephora",
         pros: [
           "The cleanest luxury fragrance — like fresh linen in liquid form",
@@ -261,7 +267,8 @@ USA: $3,550 (~€3,275)
         price: "AED 165 (~$45)",
         image: "/images/products/swiss-arabian-shaghaf.jpg",
         rating: 4.3,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/s?k=Swiss+Arabian+Shaghaf+Oud&tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/s?k=Swiss+Arabian+Shaghaf+Oud&tag=selectoire-21",
         affiliateProgram: "Amazon Associates",
         pros: [
           "Authentic oud with rose — the classic Arabic combination done right",
@@ -280,7 +287,8 @@ USA: $3,550 (~€3,275)
         price: "AED 1,200 (~$325)",
         image: "/images/products/tom-ford-neroli-portofino.jpg",
         rating: 4.5,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/s?k=Tom+Ford+Neroli+Portofino&tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/s?k=Tom+Ford+Neroli+Portofino&tag=selectoire-21",
         affiliateProgram: "Sephora",
         pros: [
           "Mediterranean citrus that smells like Italian summer on the Gulf coast",

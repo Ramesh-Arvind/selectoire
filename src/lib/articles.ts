@@ -41,6 +41,7 @@ export type Product = {
   image: string;
   rating: number;
   affiliateUrl: string;
+  affiliateUrlDE?: string;
   affiliateProgram: string;
   pros: string[];
   cons: string[];

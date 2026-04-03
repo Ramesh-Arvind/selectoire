@@ -26,7 +26,8 @@ export const grooming2Articles: Article[] = [
         price: "$285 (50ml)",
         image: "/images/products/kilian-angels-share.jpg",
         rating: 4.8,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/s?k=Kilian+Angels%27+Share+EDP&tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/s?k=Kilian+Angels%27+Share+EDP&tag=selectoire-21",
         affiliateProgram: "Sephora",
         pros: [
           "Complex cognac-cinnamon-vanilla composition that evolves for 8+ hours",
@@ -46,7 +47,8 @@ export const grooming2Articles: Article[] = [
         price: "$35 (100ml)",
         image: "/images/products/lattafa-khamrah.jpg",
         rating: 4.3,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/s?k=Lattafa+Khamrah+EDP&tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/s?k=Lattafa+Khamrah+EDP&tag=selectoire-21",
         affiliateProgram: "FragranceNet",
         pros: [
           "$35 for 100ml — $0.35/ml vs Kilian's $5.70/ml",
@@ -168,7 +170,8 @@ At this stage, Khamrah is 80-85% similar. For $35 vs $285, that's extraordinary.
         price: "$110 (100ml)",
         image: "/images/products/bleu-de-chanel.jpg",
         rating: 4.6,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/s?k=Bleu+de+Chanel+Eau+de+Toilette&tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/s?k=Bleu+de+Chanel+Eau+de+Toilette&tag=selectoire-21",
         affiliateProgram: "FragranceNet",
         pros: [
           "The safest summer fragrance — universally liked, never offensive",
@@ -187,7 +190,8 @@ At this stage, Khamrah is 80-85% similar. For $35 vs $285, that's extraordinary.
         price: "$95 (75ml)",
         image: "/images/products/adg-profondo-lights.jpg",
         rating: 4.4,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/s?k=Acqua+di+Gio+Profondo+Lights&tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/s?k=Acqua+di+Gio+Profondo+Lights&tag=selectoire-21",
         affiliateProgram: "FragranceNet",
         pros: [
           "The lightest, most refreshing version of the AdG family",
@@ -206,7 +210,8 @@ At this stage, Khamrah is 80-85% similar. For $35 vs $285, that's extraordinary.
         price: "$55 (100ml)",
         image: "/images/products/versace-pour-homme.jpg",
         rating: 4.3,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/s?k=Versace+Pour+Homme&tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/s?k=Versace+Pour+Homme&tag=selectoire-21",
         affiliateProgram: "FragranceNet",
         pros: [
           "Best value summer fragrance — $55 for a quality 100ml",
@@ -225,7 +230,8 @@ At this stage, Khamrah is 80-85% similar. For $35 vs $285, that's extraordinary.
         price: "$75 (120ml)",
         image: "/images/products/mancera-cedrat-boise.jpg",
         rating: 4.5,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/s?k=Mancera+Cedrat+Boise&tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/s?k=Mancera+Cedrat+Boise&tag=selectoire-21",
         affiliateProgram: "FragranceNet",
         pros: [
           "Niche quality at designer prices — 120ml for $75",
@@ -244,7 +250,8 @@ At this stage, Khamrah is 80-85% similar. For $35 vs $285, that's extraordinary.
         price: "$80 (100ml)",
         image: "/images/products/dg-light-blue-intense.jpg",
         rating: 4.3,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/s?k=Dolce+%26+Gabbana+Light+Blue+Eau+Intense&tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/s?k=Dolce+%26+Gabbana+Light+Blue+Eau+Intense&tag=selectoire-21",
         affiliateProgram: "FragranceNet",
         pros: [
           "The quintessential beach fragrance — elevated with more depth",
@@ -263,7 +270,8 @@ At this stage, Khamrah is 80-85% similar. For $35 vs $285, that's extraordinary.
         price: "$15 (100ml)",
         image: "/images/products/nautica-voyage.jpg",
         rating: 4.0,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/s?k=Nautica+Voyage&tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/s?k=Nautica+Voyage&tag=selectoire-21",
         affiliateProgram: "Amazon Associates",
         pros: [
           "$15 for 100ml — the cheapest good summer fragrance in existence",

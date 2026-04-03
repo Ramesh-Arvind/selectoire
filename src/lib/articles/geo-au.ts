@@ -26,7 +26,8 @@ export const auArticles: Article[] = [
         price: "AUD 5,875 (~€3,550)",
         image: "/images/products/tudor-bb58.jpg",
         rating: 4.7,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/s?k=Tudor+Black+Bay+58+(Australia+Price)&tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/s?k=Tudor+Black+Bay+58+(Australia+Price)&tag=selectoire-21",
         affiliateProgram: "Chrono24",
         pros: [
           "Available at Australian ADs: Kennedy, Watches of Switzerland, Monards",
@@ -46,7 +47,8 @@ export const auArticles: Article[] = [
         price: "AUD 8,650 (~€5,225)",
         image: "/images/products/omega-seamaster.jpg",
         rating: 4.8,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/s?k=Omega+Seamaster+300M+(Australia+Price)&tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/s?k=Omega+Seamaster+300M+(Australia+Price)&tag=selectoire-21",
         affiliateProgram: "Chrono24",
         pros: [
           "Multiple Omega boutiques in Sydney, Melbourne, Brisbane",
@@ -65,7 +67,8 @@ export const auArticles: Article[] = [
         price: "AUD 1,850 (~€1,115)",
         image: "/images/products/seiko-spb143.jpg",
         rating: 4.4,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/s?k=Seiko+Prospex+SPB143+(Australia+Price)&tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/s?k=Seiko+Prospex+SPB143+(Australia+Price)&tag=selectoire-21",
         affiliateProgram: "Amazon Associates",
         pros: [
           "Widely available at Australian retailers and Amazon AU",

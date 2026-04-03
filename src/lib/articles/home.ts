@@ -26,7 +26,8 @@ export const homeArticles: Article[] = [
         price: "$1,395",
         image: "/images/products/herman-miller-aeron.jpg",
         rating: 4.8,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/s?k=Herman+Miller+Aeron+(Remastered)&tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/s?k=Herman+Miller+Aeron+(Remastered)&tag=selectoire-21",
         affiliateProgram: "Amazon Associates",
         pros: [
           "8Z Pellicle mesh keeps you cool — no sweaty back, ever",
@@ -46,7 +47,8 @@ export const homeArticles: Article[] = [
         price: "$1,299",
         image: "/images/products/steelcase-leap.jpg",
         rating: 4.7,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/s?k=Steelcase+Leap+V2&tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/s?k=Steelcase+Leap+V2&tag=selectoire-21",
         affiliateProgram: "Amazon Associates",
         pros: [
           "LiveBack technology flexes with your spine throughout the day",
@@ -161,7 +163,8 @@ Both are genuinely excellent. At $1,300-1,400, you're paying for engineering tha
         price: "$699",
         image: "/images/products/uplift-v2.jpg",
         rating: 4.7,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/s?k=Uplift+V2+Commercial&tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/s?k=Uplift+V2+Commercial&tag=selectoire-21",
         affiliateProgram: "Amazon Associates",
         pros: [
           "Best stability at standing height — minimal wobble",
@@ -180,7 +183,8 @@ Both are genuinely excellent. At $1,300-1,400, you're paying for engineering tha
         price: "$479",
         image: "/images/products/flexispot-e7.jpg",
         rating: 4.4,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/s?k=FlexiSpot+E7+Pro&tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/s?k=FlexiSpot+E7+Pro&tag=selectoire-21",
         affiliateProgram: "Amazon Associates",
         pros: [
           "Best value dual-motor standing desk available",
@@ -199,7 +203,8 @@ Both are genuinely excellent. At $1,300-1,400, you're paying for engineering tha
         price: "$599",
         image: "/images/products/fully-jarvis.jpg",
         rating: 4.3,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/s?k=Fully+Jarvis+Bamboo&tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/s?k=Fully+Jarvis+Bamboo&tag=selectoire-21",
         affiliateProgram: "Amazon Associates",
         pros: [
           "Sustainable bamboo top is gorgeous and durable",

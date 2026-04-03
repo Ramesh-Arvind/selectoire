@@ -26,7 +26,8 @@ export const ukArticles: Article[] = [
         price: "£3,170 (~€3,700)",
         image: "/images/products/tudor-bb58.jpg",
         rating: 4.7,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/s?k=Tudor+Black+Bay+58+(UK+Price)&tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/s?k=Tudor+Black+Bay+58+(UK+Price)&tag=selectoire-21",
         affiliateProgram: "Chrono24",
         pros: [
           "Available at Watches of Switzerland, Goldsmiths, and Mappin & Webb",
@@ -46,7 +47,8 @@ export const ukArticles: Article[] = [
         price: "£6,000 (~€7,000)",
         image: "/images/products/omega-speedmaster.jpg",
         rating: 4.9,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/s?k=Omega+Speedmaster+Professional+(UK+Price)&tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/s?k=Omega+Speedmaster+Professional+(UK+Price)&tag=selectoire-21",
         affiliateProgram: "Chrono24",
         pros: [
           "Omega boutiques on Bond Street, Knightsbridge, and nationwide",
@@ -65,7 +67,8 @@ export const ukArticles: Article[] = [
         price: "£1,050 (~€1,225)",
         image: "/images/products/seiko-spb143.jpg",
         rating: 4.4,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/s?k=Seiko+Prospex+SPB143+(UK+Price)&tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/s?k=Seiko+Prospex+SPB143+(UK+Price)&tag=selectoire-21",
         affiliateProgram: "Amazon Associates",
         pros: [
           "Widely available at Ernest Jones, H. Samuel, and Amazon UK",
@@ -194,7 +197,8 @@ The UK's VAT Retail Export Scheme allows tourists to claim back the 20% VAT on p
         price: "£350",
         image: "/images/products/sony-xm6.jpg",
         rating: 4.7,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/dp/B0CZQZ4KXZ?tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/dp/B0CZQZ4KXZ?tag=selectoire-21",
         affiliateProgram: "Amazon Associates",
         pros: [
           "Best ANC for blocking Tube rumble — tested on Victoria, Central, and Northern lines",
@@ -213,7 +217,8 @@ The UK's VAT Retail Export Scheme allows tourists to claim back the 20% VAT on p
         price: "£400",
         image: "/images/products/bose-qc-ultra.jpg",
         rating: 4.6,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/dp/B0CCZ1L489?tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/dp/B0CCZ1L489?tag=selectoire-21",
         affiliateProgram: "Amazon Associates",
         pros: [
           "Most comfortable for all-day wear — ideal for long commute + office combo",
@@ -232,7 +237,8 @@ The UK's VAT Retail Export Scheme allows tourists to claim back the 20% VAT on p
         price: "£229",
         image: "/images/products/airpods-pro-2.jpg",
         rating: 4.5,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/s?k=Apple+AirPods+Pro+2+(USB-C)&tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/s?k=Apple+AirPods+Pro+2+(USB-C)&tag=selectoire-21",
         affiliateProgram: "Amazon Associates",
         pros: [
           "Truly portable — case fits in any pocket, no bulk",
@@ -252,7 +258,8 @@ The UK's VAT Retail Export Scheme allows tourists to claim back the 20% VAT on p
         price: "£300",
         image: "/images/products/sennheiser-momentum4.jpg",
         rating: 4.4,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/s?k=Sennheiser+Momentum+4+Wireless&tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/s?k=Sennheiser+Momentum+4+Wireless&tag=selectoire-21",
         affiliateProgram: "Amazon Associates",
         pros: [
           "Best pure sound quality — music sounds incredible on the commute",
@@ -271,7 +278,8 @@ The UK's VAT Retail Export Scheme allows tourists to claim back the 20% VAT on p
         price: "£219",
         image: "/images/products/samsung-buds3-pro.jpg",
         rating: 4.3,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/s?k=Samsung+Galaxy+Buds3+Pro&tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/s?k=Samsung+Galaxy+Buds3+Pro&tag=selectoire-21",
         affiliateProgram: "Amazon Associates",
         pros: [
           "Best in-ear ANC for Android users — Galaxy AI noise reduction",

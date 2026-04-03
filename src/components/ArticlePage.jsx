@@ -1,11 +1,10 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import Link from "next/link";
 import NewsletterSignup from "./NewsletterSignup";
 import { getRelatedSlugs } from "../lib/related";
 import { getArticleBySlug } from "../lib/articles";
-import { getUSLink, getDELink } from "../lib/affiliate-links";
 
 function StarRating({ rating }) {
   const full = Math.floor(rating);
@@ -143,9 +142,9 @@ function ProductCard({ product, index }) {
         ))}
       </div>
 
-      {/* Primary affiliate CTA — uses real link from registry, falls back to article data */}
+      {/* Primary affiliate CTA — direct link from article data */}
       <a
-        href={getUSLink(product.name) || product.affiliateUrl}
+        href={product.affiliateUrl}
         target="_blank"
         rel="nofollow sponsored noopener"
         style={{
@@ -166,28 +165,30 @@ function ProductCard({ product, index }) {
         Check Price on Amazon
       </a>
       {/* EU/DE link */}
-      <a
-        href={getDELink(product.name)}
-        target="_blank"
-        rel="nofollow sponsored noopener"
-        style={{
-          display: "block",
-          textAlign: "center",
-          padding: "10px",
-          background: "transparent",
-          color: "#b4a078",
-          textDecoration: "none",
-          borderRadius: "4px",
-          fontSize: "11px",
-          fontWeight: 500,
-          letterSpacing: "0.06em",
-          fontFamily: "'DM Sans', sans-serif",
-          border: "1px solid rgba(180,160,120,0.2)",
-          marginTop: "8px",
-        }}
-      >
-        Preis auf Amazon.de
-      </a>
+      {product.affiliateUrlDE && (
+        <a
+          href={product.affiliateUrlDE}
+          target="_blank"
+          rel="nofollow sponsored noopener"
+          style={{
+            display: "block",
+            textAlign: "center",
+            padding: "10px",
+            background: "transparent",
+            color: "#b4a078",
+            textDecoration: "none",
+            borderRadius: "4px",
+            fontSize: "11px",
+            fontWeight: 500,
+            letterSpacing: "0.06em",
+            fontFamily: "'DM Sans', sans-serif",
+            border: "1px solid rgba(180,160,120,0.2)",
+            marginTop: "8px",
+          }}
+        >
+          Preis auf Amazon.de
+        </a>
+      )}
     </div>
   );
 }

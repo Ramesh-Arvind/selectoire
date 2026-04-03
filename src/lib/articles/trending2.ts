@@ -26,7 +26,8 @@ export const trending2Articles: Article[] = [
         price: "€7,100",
         image: "/images/products/omega-speedmaster.jpg",
         rating: 4.9,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/dp/B08L5LGFKX?tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/dp/B08L5LGFKX?tag=selectoire-21",
         affiliateProgram: "Chrono24",
         pros: [
           "The only watch qualified by NASA for all manned space missions",
@@ -154,7 +155,8 @@ At €7,100, it's a significant purchase. But unlike most things you buy for tha
         price: "$130",
         image: "/images/products/casio-gbd-300.jpg",
         rating: 4.5,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/dp/B0DK4LQ8WP?tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/dp/B0DK4LQ8WP?tag=selectoire-21",
         affiliateProgram: "Amazon Associates",
         pros: [
           "Virtually indestructible — 200m WR, shock resistant, mud resistant",
@@ -282,7 +284,8 @@ For travelers, this is transformative. No charging cable, no adapters, no anxiet
         price: "$1,299",
         image: "/images/products/samsung-s26-ultra.jpg",
         rating: 4.7,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/dp/B0DS4G2RBG?tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/dp/B0DS4G2RBG?tag=selectoire-21",
         affiliateProgram: "Amazon Associates",
         pros: [
           "200MP main sensor — insane detail for cropping and printing",
@@ -302,7 +305,8 @@ For travelers, this is transformative. No charging cable, no adapters, no anxiet
         price: "$1,199",
         image: "/images/products/iphone-17-pro.jpg",
         rating: 4.7,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/s?k=Apple+iPhone+17+Pro&tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/s?k=Apple+iPhone+17+Pro&tag=selectoire-21",
         affiliateProgram: "Amazon Associates",
         pros: [
           "Most natural color science — photos look like what your eyes saw",
@@ -434,7 +438,8 @@ For travelers, this is transformative. No charging cable, no adapters, no anxiet
         price: "$699",
         image: "/images/products/dyson-zone-2.jpg",
         rating: 3.8,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/dp/B0DQ58F3V5?tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/dp/B0DQ58F3V5?tag=selectoire-21",
         affiliateProgram: "Amazon Associates",
         pros: [
           "Actually filters air — HEPA removes 99% of particles down to 0.1 microns",

@@ -26,7 +26,8 @@ export const fashion2Articles: Article[] = [
         price: "€129",
         image: "/images/products/bellroy-city-pouch.jpg",
         rating: 4.6,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/s?k=Bellroy+City+Pouch+Premium&tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/s?k=Bellroy+City+Pouch+Premium&tag=selectoire-21",
         affiliateProgram: "Amazon Associates",
         pros: [
           "Premium leather with environmental certification",
@@ -45,7 +46,8 @@ export const fashion2Articles: Article[] = [
         price: "€290",
         image: "/images/products/polene-dix.jpg",
         rating: 4.7,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/s?k=Polène+Numéro+Dix&tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/s?k=Polène+Numéro+Dix&tag=selectoire-21",
         affiliateProgram: "Farfetch",
         pros: [
           "Sculptural French design — looks like a €1,000 bag",
@@ -64,7 +66,8 @@ export const fashion2Articles: Article[] = [
         price: "€345",
         image: "/images/products/troubadour-orbis.jpg",
         rating: 4.5,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/s?k=Troubadour+Orbis+Sling&tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/s?k=Troubadour+Orbis+Sling&tag=selectoire-21",
         affiliateProgram: "Amazon Associates",
         pros: [
           "Waterproof recycled nylon — handles any weather",
@@ -83,7 +86,8 @@ export const fashion2Articles: Article[] = [
         price: "€198",
         image: "/images/products/cuyana-crossbody.jpg",
         rating: 4.4,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/s?k=Cuyana+Small+Structured+Crossbody&tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/s?k=Cuyana+Small+Structured+Crossbody&tag=selectoire-21",
         affiliateProgram: "Amazon Associates",
         pros: [
           "Italian leather with minimal, timeless design",
@@ -102,7 +106,8 @@ export const fashion2Articles: Article[] = [
         price: "€110",
         image: "/images/products/peak-design-sling.jpg",
         rating: 4.5,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/s?k=Peak+Design+Everyday+Sling+6L&tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/s?k=Peak+Design+Everyday+Sling+6L&tag=selectoire-21",
         affiliateProgram: "Amazon Associates",
         pros: [
           "FlexFold dividers customize the interior for any load",
@@ -219,7 +224,8 @@ The quick-adjust strap is a Peak Design signature — pull a tab and the bag swi
         price: "€395",
         image: "/images/products/demellier-montreal.jpg",
         rating: 4.6,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/s?k=DeMellier+The+Montreal&tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/s?k=DeMellier+The+Montreal&tag=selectoire-21",
         affiliateProgram: "Farfetch",
         pros: [
           "B Corp certified — ethical and sustainable production",
@@ -238,7 +244,8 @@ The quick-adjust strap is a Peak Design signature — pull a tab and the bag swi
         price: "€350",
         image: "/images/products/polene-numero-un.jpg",
         rating: 4.7,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/s?k=Polène+Numéro+Un+Nano&tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/s?k=Polène+Numéro+Un+Nano&tag=selectoire-21",
         affiliateProgram: "Farfetch",
         pros: [
           "Sculptural French design that rivals luxury houses at 5x the price",
@@ -361,7 +368,8 @@ Both offer exceptional quality at prices that would be €1,000-2,000 from estab
         price: "€420",
         image: "/images/products/common-projects-achilles.jpg",
         rating: 4.7,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/s?k=Common+Projects+Achilles+Low&tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/s?k=Common+Projects+Achilles+Low&tag=selectoire-21",
         affiliateProgram: "SSENSE",
         pros: [
           "Hand-stitched in Marche, Italy — genuine artisanal craft",
@@ -381,7 +389,8 @@ Both offer exceptional quality at prices that would be €1,000-2,000 from estab
         price: "€250",
         image: "/images/products/axel-arigato-clean-90.jpg",
         rating: 4.4,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/s?k=Axel+Arigato+Clean+90&tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/s?k=Axel+Arigato+Clean+90&tag=selectoire-21",
         affiliateProgram: "Amazon Associates",
         pros: [
           "€170 cheaper than Common Projects for a similar aesthetic",
@@ -497,7 +506,8 @@ Both offer exceptional quality at prices that would be €1,000-2,000 from estab
         price: "€1,100",
         image: "/images/products/rimowa-original.jpg",
         rating: 4.7,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/s?k=Rimowa+Original+Cabin&tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/s?k=Rimowa+Original+Cabin&tag=selectoire-21",
         affiliateProgram: "Amazon Associates",
         pros: [
           "Anodized aluminum construction — will outlast you",
@@ -517,7 +527,8 @@ Both offer exceptional quality at prices that would be €1,000-2,000 from estab
         price: "€295",
         image: "/images/products/away-carry-on.jpg",
         rating: 4.3,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/s?k=Away+The+Carry-On&tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/s?k=Away+The+Carry-On&tag=selectoire-21",
         affiliateProgram: "Amazon Associates",
         pros: [
           "Ejectable USB battery for phone charging — genuinely useful",

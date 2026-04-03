@@ -26,7 +26,8 @@ export const watches2Articles: Article[] = [
         price: "$475",
         image: "/images/products/tissot-prx.jpg",
         rating: 4.6,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/dp/B0CJ8KRLP7?tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/dp/B0CJ8KRLP7?tag=selectoire-21",
         affiliateProgram: "Jomashop",
         pros: [
           "80-hour power reserve — skip it on Friday, it's still running Monday",
@@ -45,7 +46,8 @@ export const watches2Articles: Article[] = [
         price: "$595",
         image: "/images/products/hamilton-khaki-field.jpg",
         rating: 4.5,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/s?k=Hamilton+Khaki+Field+Mechanical+38mm&tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/s?k=Hamilton+Khaki+Field+Mechanical+38mm&tag=selectoire-21",
         affiliateProgram: "Jomashop",
         pros: [
           "Hand-wound H-50 movement with 80-hour power reserve",
@@ -64,7 +66,8 @@ export const watches2Articles: Article[] = [
         price: "$750",
         image: "/images/products/seiko-presage-sharp.jpg",
         rating: 4.6,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/s?k=Seiko+Presage+Sharp+Edged+SPB167&tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/s?k=Seiko+Presage+Sharp+Edged+SPB167&tag=selectoire-21",
         affiliateProgram: "Amazon Associates",
         pros: [
           "Asagoiro (hemp leaf) textured dial — genuinely art on your wrist",
@@ -83,7 +86,8 @@ export const watches2Articles: Article[] = [
         price: "$450",
         image: "/images/products/orient-star-classic.jpg",
         rating: 4.4,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/s?k=Orient+Star+Classic+Semi-Skeleton+RK-AT0001B&tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/s?k=Orient+Star+Classic+Semi-Skeleton+RK-AT0001B&tag=selectoire-21",
         affiliateProgram: "Amazon Associates",
         pros: [
           "Open-heart dial shows the movement — mesmerizing detail for $450",
@@ -102,7 +106,8 @@ export const watches2Articles: Article[] = [
         price: "$625",
         image: "/images/products/certina-ds1.jpg",
         rating: 4.3,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/s?k=Certina+DS-1+Powermatic+80&tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/s?k=Certina+DS-1+Powermatic+80&tag=selectoire-21",
         affiliateProgram: "Jomashop",
         pros: [
           "Powermatic 80 movement (same as Tissot PRX) with COSC-grade accuracy",
@@ -121,7 +126,8 @@ export const watches2Articles: Article[] = [
         price: "$895",
         image: "/images/products/fc-classics-auto.jpg",
         rating: 4.5,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/s?k=Frederique+Constant+Classics+Index+Automatic&tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/s?k=Frederique+Constant+Classics+Index+Automatic&tag=selectoire-21",
         affiliateProgram: "Jomashop",
         pros: [
           "Swiss-made dress watch with genuine luxury finishing",
@@ -235,7 +241,8 @@ The open-heart window at 9 o'clock is genuinely mesmerizing — watching the bal
         price: "$260",
         image: "/images/products/moonswatch-moon.jpg",
         rating: 4.3,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/s?k=MoonSwatch+Mission+to+the+Moon+(Black/Black)&tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/s?k=MoonSwatch+Mission+to+the+Moon+(Black/Black)&tag=selectoire-21",
         affiliateProgram: "Chrono24",
         pros: [
           "Most faithful to the original Omega Speedmaster aesthetic",
@@ -255,7 +262,8 @@ The open-heart window at 9 o'clock is genuinely mesmerizing — watching the bal
         price: "$260",
         image: "/images/products/moonswatch-mars.jpg",
         rating: 4.2,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/s?k=MoonSwatch+Mission+to+Mars+(Red)&tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/s?k=MoonSwatch+Mission+to+Mars+(Red)&tag=selectoire-21",
         affiliateProgram: "Chrono24",
         pros: [
           "Bold burgundy-red colorway is the most striking in the collection",
@@ -274,7 +282,8 @@ The open-heart window at 9 o'clock is genuinely mesmerizing — watching the bal
         price: "$260",
         image: "/images/products/moonswatch-neptune.jpg",
         rating: 4.4,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/s?k=MoonSwatch+Mission+to+Neptune+(Blue)&tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/s?k=MoonSwatch+Mission+to+Neptune+(Blue)&tag=selectoire-21",
         affiliateProgram: "Chrono24",
         pros: [
           "Deep navy blue is elegant and versatile",

@@ -26,7 +26,8 @@ export const fashion3Articles: Article[] = [
         price: "$750",
         image: "/images/products/jmm-zephirin.jpg",
         rating: 4.8,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/s?k=Jacques+Marie+Mage+Zephirin&tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/s?k=Jacques+Marie+Mage+Zephirin&tag=selectoire-21",
         affiliateProgram: "Farfetch",
         pros: [
           "Japanese acetate with density and color depth that mass brands can't match",
@@ -46,7 +47,8 @@ export const fashion3Articles: Article[] = [
         price: "$380",
         image: "/images/products/garrett-leight-hampton.jpg",
         rating: 4.5,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/s?k=Garrett+Leight+California+Optical+Hampton&tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/s?k=Garrett+Leight+California+Optical+Hampton&tag=selectoire-21",
         affiliateProgram: "SSENSE",
         pros: [
           "LA-designed, Japan-manufactured — the best of both aesthetics",
@@ -66,7 +68,8 @@ export const fashion3Articles: Article[] = [
         price: "$280",
         image: "/images/products/moscot-lemtosh.jpg",
         rating: 4.4,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/s?k=Moscot+Lemtosh&tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/s?k=Moscot+Lemtosh&tag=selectoire-21",
         affiliateProgram: "Amazon Associates",
         pros: [
           "NYC heritage since 1915 — genuine, not manufactured nostalgia",
@@ -190,7 +193,8 @@ At $280, Moscot is the most accessible option here. Italian acetate, 7-barrel hi
         price: "€450",
         image: "/images/products/bv-cassette-wallet.jpg",
         rating: 4.7,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/s?k=Bottega+Veneta+Cassette+Bi-Fold&tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/s?k=Bottega+Veneta+Cassette+Bi-Fold&tag=selectoire-21",
         affiliateProgram: "Farfetch",
         pros: [
           "Intrecciato weave is instantly recognizable without any visible branding",
@@ -210,7 +214,8 @@ At $280, Moscot is the most accessible option here. Italian acetate, 7-barrel hi
         price: "€540",
         image: "/images/products/goyard-wallet.jpg",
         rating: 4.5,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/s?k=Goyard+Saint+Florentin+Wallet&tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/s?k=Goyard+Saint+Florentin+Wallet&tag=selectoire-21",
         affiliateProgram: "Farfetch",
         pros: [
           "Goyardine canvas is nearly indestructible — outlasts leather",
@@ -230,7 +235,8 @@ At $280, Moscot is the most accessible option here. Italian acetate, 7-barrel hi
         price: "€375",
         image: "/images/products/sl-bifold-wallet.jpg",
         rating: 4.4,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/s?k=Saint+Laurent+East/West+Bi-Fold+in+Grain+de+Poudre&tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/s?k=Saint+Laurent+East/West+Bi-Fold+in+Grain+de+Poudre&tag=selectoire-21",
         affiliateProgram: "SSENSE",
         pros: [
           "Textured leather is scratch-resistant and durable for daily use",
@@ -342,7 +348,8 @@ At $280, Moscot is the most accessible option here. Italian acetate, 7-barrel hi
         price: "€475",
         image: "/images/products/paraboot-michael.jpg",
         rating: 4.7,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/s?k=Paraboot+Michael&tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/s?k=Paraboot+Michael&tag=selectoire-21",
         affiliateProgram: "Mr Porter",
         pros: [
           "Norwegian welt construction — water-resistant and resoleable indefinitely",
@@ -362,7 +369,8 @@ At $280, Moscot is the most accessible option here. Italian acetate, 7-barrel hi
         price: "€135",
         image: "/images/products/kleman-padror.jpg",
         rating: 4.2,
-        affiliateUrl: "#",
+        affiliateUrl: "https://www.amazon.com/s?k=Kleman+Padror&tag=selectoire21-20",
+        affiliateUrlDE: "https://www.amazon.de/s?k=Kleman+Padror&tag=selectoire-21",
         affiliateProgram: "SSENSE",
         pros: [
           "€135 for a French-made Tyrolean Derby — absurd value",
