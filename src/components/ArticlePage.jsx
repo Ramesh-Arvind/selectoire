@@ -5,6 +5,7 @@ import Link from "next/link";
 import NewsletterSignup from "./NewsletterSignup";
 import { getRelatedSlugs } from "../lib/related";
 import { getArticleBySlug } from "../lib/articles";
+import { getProductImage } from "../lib/product-images";
 
 function StarRating({ rating }) {
   const full = Math.floor(rating);
@@ -33,21 +34,50 @@ function ProductCard({ product, index }) {
         minWidth: "280px",
       }}
     >
-      <div
-        style={{
-          width: "100%",
-          height: "200px",
-          background: "linear-gradient(135deg, #f5f0e8 0%, #ebe5d9 100%)",
-          borderRadius: "6px",
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-          marginBottom: "20px",
-          fontSize: "48px",
-        }}
-      >
-        ⌚
-      </div>
+      {(() => {
+        const img = getProductImage(product.name);
+        return img.type === "image" ? (
+          <div
+            style={{
+              width: "100%",
+              height: "200px",
+              background: "#f8f5f0",
+              borderRadius: "6px",
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+              marginBottom: "20px",
+              overflow: "hidden",
+            }}
+          >
+            <img
+              src={img.src}
+              alt={product.name}
+              style={{
+                maxWidth: "90%",
+                maxHeight: "180px",
+                objectFit: "contain",
+              }}
+            />
+          </div>
+        ) : (
+          <div
+            style={{
+              width: "100%",
+              height: "200px",
+              background: "linear-gradient(135deg, #f5f0e8 0%, #ebe5d9 100%)",
+              borderRadius: "6px",
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+              marginBottom: "20px",
+              fontSize: "48px",
+            }}
+          >
+            {img.src}
+          </div>
+        );
+      })()}
       <h3
         style={{
           fontFamily: "'Cormorant Garamond', Georgia, serif",

@@ -27,7 +27,7 @@ export const watches2Articles: Article[] = [
         image: "/images/products/tissot-prx.jpg",
         rating: 4.6,
         affiliateUrl: "https://www.amazon.com/dp/B0CJ8KRLP7?tag=selectoire21-20",
-        affiliateUrlDE: "https://www.amazon.de/dp/B0CJ8KRLP7?tag=selectoire-21",
+        affiliateUrlDE: "https://www.amazon.de/s?k=Tissot+PRX+Powermatic+80&tag=selectoire-21",
         affiliateProgram: "Jomashop",
         pros: [
           "80-hour power reserve — skip it on Friday, it's still running Monday",

@@ -27,7 +27,7 @@ export const techArticles: Article[] = [
         image: "/images/products/sony-xm6.jpg",
         rating: 4.7,
         affiliateUrl: "https://www.amazon.com/dp/B0CZQZ4KXZ?tag=selectoire21-20",
-        affiliateUrlDE: "https://www.amazon.de/dp/B0CZQZ4KXZ?tag=selectoire-21",
+        affiliateUrlDE: "https://www.amazon.de/s?k=Sony+WH-1000XM6&tag=selectoire-21",
         affiliateProgram: "Amazon Associates",
         pros: [
           "Best-in-class ANC — measurably blocks more noise than any competitor",
@@ -48,7 +48,7 @@ export const techArticles: Article[] = [
         image: "/images/products/bose-qc-ultra.jpg",
         rating: 4.6,
         affiliateUrl: "https://www.amazon.com/dp/B0CCZ1L489?tag=selectoire21-20",
-        affiliateUrlDE: "https://www.amazon.de/dp/B0CCZ1L489?tag=selectoire-21",
+        affiliateUrlDE: "https://www.amazon.de/s?k=Bose+QuietComfort+Ultra&tag=selectoire-21",
         affiliateProgram: "Amazon Associates",
         pros: [
           "Most comfortable headphones for all-day wear — period",
@@ -173,7 +173,7 @@ export const techArticles: Article[] = [
         image: "/images/products/fujifilm-x100vi.jpg",
         rating: 4.8,
         affiliateUrl: "https://www.amazon.com/dp/B0CVRK7B68?tag=selectoire21-20",
-        affiliateUrlDE: "https://www.amazon.de/dp/B0CVRK7B68?tag=selectoire-21",
+        affiliateUrlDE: "https://www.amazon.de/s?k=Fujifilm+X100VI&tag=selectoire-21",
         affiliateProgram: "B&H Photo",
         pros: [
           "40MP X-Trans CMOS 5 HR sensor — stunning image quality",
@@ -288,7 +288,7 @@ Build quality is solid aluminum and magnesium alloy. The hybrid optical/electron
         image: "/images/products/sony-xm6.jpg",
         rating: 4.7,
         affiliateUrl: "https://www.amazon.com/dp/B0CZQZ4KXZ?tag=selectoire21-20",
-        affiliateUrlDE: "https://www.amazon.de/dp/B0CZQZ4KXZ?tag=selectoire-21",
+        affiliateUrlDE: "https://www.amazon.de/s?k=Sony+WH-1000XM6&tag=selectoire-21",
         affiliateProgram: "Amazon Associates",
         pros: [
           "Best ANC for blocking office/cafe noise",
@@ -307,7 +307,7 @@ Build quality is solid aluminum and magnesium alloy. The hybrid optical/electron
         image: "/images/products/bose-qc-ultra.jpg",
         rating: 4.6,
         affiliateUrl: "https://www.amazon.com/dp/B0CCZ1L489?tag=selectoire21-20",
-        affiliateUrlDE: "https://www.amazon.de/dp/B0CCZ1L489?tag=selectoire-21",
+        affiliateUrlDE: "https://www.amazon.de/s?k=Bose+QuietComfort+Ultra&tag=selectoire-21",
         affiliateProgram: "Amazon Associates",
         pros: [
           "Most comfortable for all-day wear",
@@ -326,7 +326,7 @@ Build quality is solid aluminum and magnesium alloy. The hybrid optical/electron
         image: "/images/products/airpods-max-2.jpg",
         rating: 4.5,
         affiliateUrl: "https://www.amazon.com/dp/B0DJYGRKMH?tag=selectoire21-20",
-        affiliateUrlDE: "https://www.amazon.de/dp/B0DJYGRKMH?tag=selectoire-21",
+        affiliateUrlDE: "https://www.amazon.de/s?k=Apple+AirPods+Max+2&tag=selectoire-21",
         affiliateProgram: "Amazon Associates",
         pros: [
           "Seamless Apple ecosystem integration",

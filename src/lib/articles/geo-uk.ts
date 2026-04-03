@@ -198,7 +198,7 @@ The UK's VAT Retail Export Scheme allows tourists to claim back the 20% VAT on p
         image: "/images/products/sony-xm6.jpg",
         rating: 4.7,
         affiliateUrl: "https://www.amazon.com/dp/B0CZQZ4KXZ?tag=selectoire21-20",
-        affiliateUrlDE: "https://www.amazon.de/dp/B0CZQZ4KXZ?tag=selectoire-21",
+        affiliateUrlDE: "https://www.amazon.de/s?k=Sony+WH-1000XM6&tag=selectoire-21",
         affiliateProgram: "Amazon Associates",
         pros: [
           "Best ANC for blocking Tube rumble — tested on Victoria, Central, and Northern lines",
@@ -218,7 +218,7 @@ The UK's VAT Retail Export Scheme allows tourists to claim back the 20% VAT on p
         image: "/images/products/bose-qc-ultra.jpg",
         rating: 4.6,
         affiliateUrl: "https://www.amazon.com/dp/B0CCZ1L489?tag=selectoire21-20",
-        affiliateUrlDE: "https://www.amazon.de/dp/B0CCZ1L489?tag=selectoire-21",
+        affiliateUrlDE: "https://www.amazon.de/s?k=Bose+QuietComfort+Ultra&tag=selectoire-21",
         affiliateProgram: "Amazon Associates",
         pros: [
           "Most comfortable for all-day wear — ideal for long commute + office combo",

@@ -222,7 +222,7 @@ This is the only sunscreen on our list that improves your skin condition while p
         image: "/images/products/salomon-xt6.jpg",
         rating: 4.6,
         affiliateUrl: "https://www.amazon.com/dp/B09TKMYB7F?tag=selectoire21-20",
-        affiliateUrlDE: "https://www.amazon.de/dp/B09TKMYB7F?tag=selectoire-21",
+        affiliateUrlDE: "https://www.amazon.de/s?k=Salomon+XT-6&tag=selectoire-21",
         affiliateProgram: "Amazon Associates",
         pros: [
           "Genuine trail performance — not just fashion",
@@ -243,7 +243,7 @@ This is the only sunscreen on our list that improves your skin condition while p
         image: "/images/products/nb-2002r.jpg",
         rating: 4.7,
         affiliateUrl: "https://www.amazon.com/dp/B0B6G5G6F6?tag=selectoire21-20",
-        affiliateUrlDE: "https://www.amazon.de/dp/B0B6G5G6F6?tag=selectoire-21",
+        affiliateUrlDE: "https://www.amazon.de/s?k=New+Balance+2002R&tag=selectoire-21",
         affiliateProgram: "Amazon Associates",
         pros: [
           "ABZORB midsole — cloud-like comfort for all-day wear",
@@ -264,7 +264,7 @@ This is the only sunscreen on our list that improves your skin condition while p
         image: "/images/products/asics-kayano-14.jpg",
         rating: 4.5,
         affiliateUrl: "https://www.amazon.com/dp/B0BVFB22NK?tag=selectoire21-20",
-        affiliateUrlDE: "https://www.amazon.de/dp/B0BVFB22NK?tag=selectoire-21",
+        affiliateUrlDE: "https://www.amazon.de/s?k=ASICS+Gel-Kayano+14&tag=selectoire-21",
         affiliateProgram: "Amazon Associates",
         pros: [
           "GEL technology cushioning is unmatched for impact absorption",
@@ -385,7 +385,7 @@ But gorpcore has matured. It's no longer enough to just look technical. The best
         image: "/images/products/airpods-max-2.jpg",
         rating: 4.5,
         affiliateUrl: "https://www.amazon.com/dp/B0DJYGRKMH?tag=selectoire21-20",
-        affiliateUrlDE: "https://www.amazon.de/dp/B0DJYGRKMH?tag=selectoire-21",
+        affiliateUrlDE: "https://www.amazon.de/s?k=Apple+AirPods+Max+2&tag=selectoire-21",
         affiliateProgram: "Amazon Associates",
         pros: [
           "Seamless Apple ecosystem integration — automatic switching actually works",
@@ -512,7 +512,7 @@ None of these features matter if you're on Android. All of them matter significa
         image: "/images/products/cartier-tank.jpg",
         rating: 4.7,
         affiliateUrl: "https://www.amazon.com/dp/B09XK3DHSZ?tag=selectoire21-20",
-        affiliateUrlDE: "https://www.amazon.de/dp/B09XK3DHSZ?tag=selectoire-21",
+        affiliateUrlDE: "https://www.amazon.de/s?k=Cartier+Tank+Must&tag=selectoire-21",
         affiliateProgram: "Chrono24",
         pros: [
           "One of the most recognizable watch designs in history — since 1917",
@@ -533,7 +533,7 @@ None of these features matter if you're on Android. All of them matter significa
         image: "/images/products/jlc-reverso.jpg",
         rating: 4.8,
         affiliateUrl: "https://www.amazon.com/dp/B004KY8FME?tag=selectoire21-20",
-        affiliateUrlDE: "https://www.amazon.de/dp/B004KY8FME?tag=selectoire-21",
+        affiliateUrlDE: "https://www.amazon.de/s?k=Jaeger+LeCoultre+Reverso&tag=selectoire-21",
         affiliateProgram: "Chrono24",
         pros: [
           "Iconic reversible case — invented for polo players in 1931",
@@ -650,7 +650,7 @@ None of these features matter if you're on Android. All of them matter significa
         image: "/images/products/pdm-layton.jpg",
         rating: 4.7,
         affiliateUrl: "https://www.amazon.com/dp/B01MU7XTUZ?tag=selectoire21-20",
-        affiliateUrlDE: "https://www.amazon.de/dp/B01MU7XTUZ?tag=selectoire-21",
+        affiliateUrlDE: "https://www.amazon.de/s?k=Parfums+de+Marly+Layton&tag=selectoire-21",
         affiliateProgram: "FragranceNet",
         pros: [
           "Apple-vanilla-cardamom DNA is universally appealing",
@@ -671,7 +671,7 @@ None of these features matter if you're on Android. All of them matter significa
         image: "/images/products/dior-sauvage.jpg",
         rating: 4.4,
         affiliateUrl: "https://www.amazon.com/dp/B07DFXNBJW?tag=selectoire21-20",
-        affiliateUrlDE: "https://www.amazon.de/dp/B07DFXNBJW?tag=selectoire-21",
+        affiliateUrlDE: "https://www.amazon.de/s?k=Dior+Sauvage+EDP&tag=selectoire-21",
         affiliateProgram: "Sephora",
         pros: [
           "The world's best-selling men's fragrance — universally safe",

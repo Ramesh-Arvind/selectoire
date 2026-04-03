@@ -27,7 +27,7 @@ export const trending3Articles: Article[] = [
         image: "/images/products/rayban-meta.jpg",
         rating: 4.3,
         affiliateUrl: "https://www.amazon.com/dp/B0CGXKCBX1?tag=selectoire21-20",
-        affiliateUrlDE: "https://www.amazon.de/dp/B0CGXKCBX1?tag=selectoire-21",
+        affiliateUrlDE: "https://www.amazon.de/s?k=Ray-Ban+Meta+Smart+Glasses&tag=selectoire-21",
         affiliateProgram: "Amazon Associates",
         pros: [
           "Looks like actual Ray-Bans — nobody knows they're smart glasses",
@@ -350,7 +350,7 @@ And honestly? **It's a magical shoe.** The Loro Piana suede is from their own ta
         image: "/images/products/dyson-airwrap.jpg",
         rating: 4.5,
         affiliateUrl: "https://www.amazon.com/dp/B0CSHD7LV7?tag=selectoire21-20",
-        affiliateUrlDE: "https://www.amazon.de/dp/B0CSHD7LV7?tag=selectoire-21",
+        affiliateUrlDE: "https://www.amazon.de/s?k=Dyson+Airwrap&tag=selectoire-21",
         affiliateProgram: "Amazon Associates",
         pros: [
           "Coanda effect technology — wraps and styles with air, not extreme heat",
@@ -371,7 +371,7 @@ And honestly? **It's a magical shoe.** The Loro Piana suede is from their own ta
         image: "/images/products/shark-flexstyle.jpg",
         rating: 4.3,
         affiliateUrl: "https://www.amazon.com/dp/B0CD93CKDQ?tag=selectoire21-20",
-        affiliateUrlDE: "https://www.amazon.de/dp/B0CD93CKDQ?tag=selectoire-21",
+        affiliateUrlDE: "https://www.amazon.de/s?k=Shark+FlexStyle&tag=selectoire-21",
         affiliateProgram: "Amazon Associates",
         pros: [
           "Half the price of Dyson — the clear value play",

@@ -27,7 +27,7 @@ export const watchArticles: Article[] = [
         image: "/images/products/tudor-bb58.jpg",
         rating: 4.7,
         affiliateUrl: "https://www.amazon.com/dp/B07WGPWGM4?tag=selectoire21-20",
-        affiliateUrlDE: "https://www.amazon.de/dp/B07WGPWGM4?tag=selectoire-21",
+        affiliateUrlDE: "https://www.amazon.de/s?k=Tudor+Black+Bay+58&tag=selectoire-21",
         affiliateProgram: "Chrono24",
         pros: [
           "In-house MT5402 movement with 70h power reserve",
@@ -48,7 +48,7 @@ export const watchArticles: Article[] = [
         image: "/images/products/tissot-prx.jpg",
         rating: 4.5,
         affiliateUrl: "https://www.amazon.com/dp/B0CJ8KRLP7?tag=selectoire21-20",
-        affiliateUrlDE: "https://www.amazon.de/dp/B0CJ8KRLP7?tag=selectoire-21",
+        affiliateUrlDE: "https://www.amazon.de/s?k=Tissot+PRX+Powermatic+80&tag=selectoire-21",
         affiliateProgram: "Amazon Associates",
         pros: [
           "Incredible value — Powermatic 80 movement at this price",
@@ -159,7 +159,7 @@ But if you're a serious watch enthusiast looking for a piece that holds its valu
         image: "/images/products/tudor-bb58.jpg",
         rating: 4.7,
         affiliateUrl: "https://www.amazon.com/dp/B07WGPWGM4?tag=selectoire21-20",
-        affiliateUrlDE: "https://www.amazon.de/dp/B07WGPWGM4?tag=selectoire-21",
+        affiliateUrlDE: "https://www.amazon.de/s?k=Tudor+Black+Bay+58&tag=selectoire-21",
         affiliateProgram: "Chrono24",
         pros: [
           "Perfect 39mm vintage size",
@@ -179,7 +179,7 @@ But if you're a serious watch enthusiast looking for a piece that holds its valu
         image: "/images/products/omega-seamaster.jpg",
         rating: 4.8,
         affiliateUrl: "https://www.amazon.com/dp/B08L5LGFKX?tag=selectoire21-20",
-        affiliateUrlDE: "https://www.amazon.de/dp/B08L5LGFKX?tag=selectoire-21",
+        affiliateUrlDE: "https://www.amazon.de/s?k=Omega+Speedmaster+Professional&tag=selectoire-21",
         affiliateProgram: "Chrono24",
         pros: [
           "Co-Axial Master Chronometer — antimagnetic to 15,000 gauss",
