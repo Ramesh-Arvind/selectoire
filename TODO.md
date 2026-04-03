@@ -1,371 +1,262 @@
-# SEO Affiliate Site — Complete Implementation TODO
+# Selectoire.com — Project Status & TODO
 
-## Current State (as of 2026-04-03)
-- Next.js 16 + React 19 app with 3 static dashboard pages (tracker, intelligence, growth)
-- ALL data is hardcoded in components — no backend, no database, no CMS
-- No actual SEO content pages exist (no articles, no reviews, no product pages)
-- No affiliate link management
-- No deployment — runs locally only
-- No authentication, no analytics, no sitemap, no SEO infrastructure
+## Last Updated: 2026-04-03
 
 ---
 
-## PHASE 1: Project Foundation (Day 1-2)
-*Make it deployable and properly structured*
+## WHAT'S BEEN BUILT (Completed)
 
-### 1.1 Project Config & Tooling
-- [ ] Add Tailwind CSS (replace all inline styles — current code is unmaintainable)
-- [ ] Add ESLint + Prettier config
-- [ ] Add `.env.local` / `.env.example` with all required env vars
-- [ ] Add proper `tsconfig.json` path aliases (`@/components`, `@/lib`, etc.)
-- [ ] Add `globals.css` with base theme (dark mode, fonts, CSS variables)
-- [ ] Set up proper folder structure:
-  ```
-  src/
-    app/
-      (marketing)/        # public-facing SEO pages
-        [category]/
-          [slug]/page.tsx  # individual article pages
-        page.tsx           # homepage
-      (dashboard)/        # internal command center
-        tracker/
-        intelligence/
-        growth/
-      api/                # API routes
-    components/
-      ui/                 # reusable UI (Button, Card, Badge, etc.)
-      articles/           # article-specific components (ProductCard, ComparisonTable, etc.)
-      dashboard/          # dashboard components (move existing here)
-    lib/
-      db.ts               # database client
-      affiliate.ts        # affiliate link utilities
-      seo.ts              # SEO/meta helpers
-      content.ts          # content/MDX utilities
-    content/              # MDX article files (or CMS integration)
-  ```
+### Infrastructure
+- [x] Next.js 16 + React 19 app with App Router
+- [x] Deployed on Vercel — live at **selectoire.com**
+- [x] Domain registered on Cloudflare, DNS configured
+- [x] GitHub repo: github.com/Ramesh-Arvind/selectoire
+- [x] Auto-deploy on git push (Vercel ← GitHub)
+- [x] `robots.txt` — hides dashboard pages from Google
+- [x] `sitemap.xml` — auto-generated with all articles and categories
+- [x] SEO meta tags (title, description, Open Graph, Twitter Cards) on every page
+- [x] JSON-LD structured data on every article (Product, Review, FAQ, Breadcrumb schemas)
+- [x] Newsletter API route (`/api/newsletter`) ready for Buttondown integration
 
-### 1.2 Deployment
-- [ ] Set up Vercel project and connect GitHub repo
-- [ ] Configure custom domain (buy on Cloudflare/Namecheap)
-- [ ] Set up Vercel environment variables
-- [ ] Configure Vercel Analytics (free, built-in)
-- [ ] Test production build (`next build`) — fix any build errors
+### Content — 48 Articles Across 5 Sectors
 
----
+| Sector | Count | Articles |
+|--------|-------|----------|
+| **Watches** | 12 | Tudor vs Tissot, Dive Guide, Cartier vs Reverso, Speedmaster, G-Shock, MoonSwatch Guide, Auto Under $1K, Spring Roundup, Dubai Guide, UK Guide, Australia Guide, Singapore Guide |
+| **Tech** | 13 | Sony vs Bose, X100VI, Remote Work Headphones, Oura Review, Oura vs Garmin, AirPods Max 2, S26 vs iPhone 17, Dyson Zone 2, Sonos vs Sennheiser, Podcast Mics, London Tube Headphones |
+| **Fashion** | 11 | Leather Boots, Gorpcore Sneakers, Ray-Ban Meta, Summer Loafers, Crossbody Bags, DeMellier vs Polène, CP vs Arigato, Rimowa vs Away, Luxury Sunglasses (JMM), Luxury Wallets, Paraboot vs Kleman |
+| **Grooming** | 8 | BR540 vs Santal 33, Tom Ford vs Creed, Sunscreens, Layton vs Sauvage, Airwrap vs FlexStyle, Lattafa vs Killian, Summer Fragrances, Gulf Fragrances |
+| **Home & Desk** | 4 | Herman Miller vs Steelcase, Standing Desks, Espresso Machines, Ultrawide Monitors |
 
-## PHASE 2: Content System (Day 2-4)
-*The core of an affiliate site is content — build the system to create/manage it*
+### Geo-Targeted Content (5 Markets)
+- [x] **UAE/Dubai** — Watch buying guide, fragrances for hot weather
+- [x] **UK/London** — Watch buying guide, London Underground headphones
+- [x] **Australia** — Watch buying guide with grey market math
+- [x] **Singapore** — Duty-free watch buying guide
+- [x] **USA/Germany** — Default market with dual affiliate links
 
-### 2.1 MDX Content Pipeline (Option A — file-based, no CMS cost)
-- [ ] Install `next-mdx-remote` or `@next/mdx` + `contentlayer2`
-- [ ] Define article frontmatter schema:
-  ```yaml
-  title: "Tudor Black Bay 58 vs Tissot PRX"
-  slug: "tudor-black-bay-58-vs-tissot-prx"
-  category: "watches"        # maps to /watches/tudor-black-bay-58-vs-tissot-prx
-  subcategory: "luxury-watches"
-  type: "comparison"         # comparison | review | buying-guide | roundup
-  products:
-    - name: "Tudor Black Bay 58"
-      affiliateLink: "https://..."
-      price: "€3,800"
-      image: "/images/products/tudor-bb58.jpg"
-      rating: 4.5
-    - name: "Tissot PRX"
-      affiliateLink: "https://..."
-      price: "€395"
-      image: "/images/products/tissot-prx.jpg"
-      rating: 4.2
-  keywords:
-    - "tudor black bay 58 vs tissot prx"
-    - "best dress watch under 5000"
-  publishedAt: "2026-04-05"
-  updatedAt: "2026-04-05"
-  author: "Editorial Team"
-  excerpt: "We compare two of the best..."
-  featured: true
-  ```
-- [ ] Create MDX components: `<ProductCard>`, `<ComparisonTable>`, `<ProsConsList>`, `<AffiliateButton>`, `<Rating>`
-- [ ] Build article layout page with proper heading hierarchy (H1, H2, etc.)
-- [ ] Add table of contents auto-generation from headings
-- [ ] Add reading time calculation
-- [ ] Add "Last updated" display
+### Affiliate System
+- [x] Amazon Associates US tag: `selectoire21-20`
+- [x] Amazon Associates DE tag: `selectoire-21`
+- [x] All 48 articles have real Amazon affiliate links (US + DE search format)
+- [x] Dual CTA buttons on every product card ("Check Price on Amazon" + "Preis auf Amazon.de")
+- [x] `rel="nofollow sponsored"` on all affiliate links
+- [x] Affiliate disclosure banner on every article page
+- [x] Product-specific emoji icons on cards (⌚🎧👟☕ etc.)
 
-### 2.2 OR: Headless CMS (Option B — easier for non-devs)
-- [ ] Set up Sanity.io (free tier) or Keystatic (git-based, free)
-- [ ] Define content schemas (Article, Product, Category)
-- [ ] Build preview/draft mode
-- [ ] Set up webhook for on-publish revalidation
+### Legal Pages
+- [x] `/impressum` — German legal disclosure (needs real address filled in)
+- [x] `/datenschutz` — GDPR privacy policy
+- [x] `/affiliate-disclosure` — FTC/EU affiliate disclosure
 
-### 2.3 Category & Hub Pages
-- [ ] Create category index pages: `/watches/`, `/tech-audio/`, `/fashion/`, `/grooming/`
-- [ ] Create subcategory pages (12 total): `/watches/luxury-watches/`, `/watches/dive-watches/`, etc.
-- [ ] Each hub page: intro text + list of articles in that category
-- [ ] Breadcrumb navigation on all pages
-- [ ] Related articles sidebar/section
+### SEO Features
+- [x] Dynamic category pages: `/watches`, `/tech`, `/fashion`, `/grooming`, `/home`
+- [x] Breadcrumb navigation on all articles
+- [x] Cross-linking between articles (Related Reviews section, 69+ internal links)
+- [x] FAQ sections with expandable answers on every article
+- [x] Newsletter signup forms (inline + banner) on every article
+- [x] "Last updated" dates on all articles
+
+### Dashboard Pages (internal, hidden from Google)
+- [x] `/tracker` — Implementation tracker with weekly sprint plan
+- [x] `/intelligence` — Product intelligence agent with trend scanning
+- [x] `/growth` — Backlink & growth strategy
+- [x] `/playbook` — Operations playbook with sector data sources
+
+### Homepage
+- [x] Premium cream/gold Selectoire design with Cormorant Garamond typography
+- [x] 5 sector cards linking to category pages
+- [x] Newsletter signup (connected to API)
+- [x] Navigation to all sectors
+- [x] Footer with legal page links
 
 ---
 
-## PHASE 3: SEO Infrastructure (Day 3-5)
-*Without this, no organic traffic — this IS the business*
+## WHAT NEEDS TO BE DONE (TODO)
 
-### 3.1 Technical SEO
-- [ ] Dynamic `sitemap.xml` generation (Next.js `app/sitemap.ts`)
-- [ ] `robots.txt` configuration (`app/robots.ts`)
-- [ ] Dynamic meta tags per page (title, description, keywords)
-- [ ] Open Graph meta tags (og:title, og:image, og:description) per article
-- [ ] Twitter Card meta tags
-- [ ] Canonical URLs on every page
-- [ ] JSON-LD structured data:
-  - [ ] `Product` schema on product cards
-  - [ ] `Review` schema on review articles
-  - [ ] `Article` schema on all articles
-  - [ ] `BreadcrumbList` schema
-  - [ ] `FAQPage` schema on FAQ sections
-  - [ ] `WebSite` schema with `SearchAction`
-- [ ] Generate OG images dynamically (Next.js `opengraph-image.tsx`)
+### URGENT — Do This Week
 
-### 3.2 Performance
-- [ ] Image optimization with `next/image` (all product photos)
-- [ ] Create `/public/images/products/` directory, add product images
-- [ ] Lazy load below-fold images
-- [ ] Preload critical fonts (self-host JetBrains Mono instead of Google Fonts CDN)
-- [ ] Target: Lighthouse score 90+ on all pages
-- [ ] Target: LCP < 2.5s, CLS < 0.1
+#### Fill In Legal Details
+- [ ] Add real German address to `/impressum` (replace `[Your Street Address]` and `[PLZ City]`)
+- [ ] Add real address to `/datenschutz` (same placeholders)
+- [ ] Verify Impressum meets § 5 TMG requirements
 
-### 3.3 Analytics & Search Console
-- [ ] Set up Google Analytics 4 (via `@next/third-parties` or `next/script`)
-- [ ] Set up Google Search Console + submit sitemap
+#### Google Search Console
+- [ ] Go to search.google.com/search-console
+- [ ] Add selectoire.com as property
+- [ ] Verify via Cloudflare DNS (add TXT record)
+- [ ] Submit sitemap: `https://selectoire.com/sitemap.xml`
+- [ ] Request indexing for top 10 articles
+
+#### Newsletter Setup
+- [ ] Create Buttondown account (free) at buttondown.com
+- [ ] Get API key from Buttondown settings
+- [ ] Add `BUTTONDOWN_API_KEY` as environment variable in Vercel → Settings → Environment Variables
+- [ ] Test signup flow on selectoire.com
+- [ ] Write welcome email
+
+#### Product Images
+- [ ] Current: emoji placeholders on product cards
+- [ ] Add real product images to `/public/images/products/`
+- [ ] Source from brand press kits (most brands offer editorial-use images)
+- [ ] Alternative: take screenshots from Amazon product pages (fair use for reviews)
+- [ ] Update `product-images.ts` to reference local files
+
+### HIGH PRIORITY — This Month
+
+#### Additional Affiliate Programs
+- [ ] Sign up for Awin (Farfetch, END. Clothing, Watches of Switzerland, Lookfantastic)
+- [ ] Sign up for CJ Affiliate (Jomashop watches)
+- [ ] Sign up for ShareASale (various)
+- [ ] Sign up for Chrono24 affiliate program
+- [ ] Sign up for FragranceNet affiliate (8-12% commission)
+- [ ] Sign up for Sephora affiliate via Rakuten
+- [ ] Add non-Amazon affiliate links to articles where commission is higher
+
+#### Google Analytics
+- [ ] Set up Google Analytics 4
+- [ ] Add GA4 tracking code to layout.tsx
 - [ ] Set up Bing Webmaster Tools
-- [ ] Add Plausible or Umami as privacy-friendly alternative
-- [ ] Create analytics dashboard component (in command center)
+- [ ] Consider Plausible or Umami as privacy-friendly alternative
+
+#### Content Expansion
+- [ ] Write 2 more fashion articles to reach 13 (fashion has highest commissions 8-14%)
+- [ ] Write 2 more home & desk articles to reach 6
+- [ ] Add UK-specific fashion article (Selfridges, Harrods)
+- [ ] Add Scandinavian market article (high GDP, 60% English search)
+
+### MEDIUM PRIORITY — Next 2 Months
+
+#### Performance & SEO
+- [ ] Add Tailwind CSS (replace inline styles — currently unmaintainable)
+- [ ] Self-host fonts (currently loading from Google Fonts CDN)
+- [ ] Optimize Lighthouse score to 90+ on all pages
+- [ ] Add `next/image` optimization for product photos once added
+- [ ] Generate OG images dynamically per article
+
+#### Revenue Diversification
+- [ ] Add `/advertise` page for sponsored content inquiries (month 3-4 when traffic exists)
+- [ ] Create 1-2 digital products (buyer's guide PDFs, €19 each)
+- [ ] Set up premium newsletter tier (Buttondown supports paid subscriptions)
+
+#### Trend System
+- [ ] Connect Product Intelligence Agent to live data sources
+- [ ] Set up weekly cron job for trend scanning
+- [ ] Auto-generate content suggestions from trend data
+
+### LOW PRIORITY — Quarter 2-3
+
+#### Additional Sectors
+- [ ] Consider adding Travel & Luggage sector (seasonal, strong commissions)
+- [ ] Consider adding Fitness & Wellness sector (Theragun, Whoop, home gym)
+- [ ] Consider adding Coffee & Spirits sector (passionate audience, repeat purchases)
+- [ ] Only add after existing sectors each have 10+ articles
+
+#### Advanced Features
+- [ ] Add search functionality across articles
+- [ ] Add "dark mode" toggle
+- [ ] Add article sorting/filtering on category pages
+- [ ] Build comparison tool (select 2 products, auto-generate comparison)
 
 ---
 
-## PHASE 4: Affiliate System (Day 4-6)
-*How you actually make money*
+## KEY METRICS TO TRACK
 
-### 4.1 Affiliate Link Management
-- [ ] Create affiliate link database/config (`src/lib/affiliates.ts`):
-  ```ts
-  // Central registry — never hardcode affiliate links in articles
-  const AFFILIATE_PROGRAMS = {
-    amazon: { tag: "yourtag-20", baseUrl: "https://amazon.com/dp/" },
-    chrono24: { ... },
-    jomashop: { ... },
-    bhphoto: { ... },
-  }
-  ```
-- [ ] Build `<AffiliateLink>` component with:
-  - `rel="nofollow sponsored"` attribute (required by Google)
-  - Click tracking (event to analytics)
-  - Automatic `?tag=` parameter injection
-  - Visual indicator (small icon showing it's an affiliate link)
-- [ ] Affiliate disclosure component (legally required — EU & US)
-- [ ] Add disclosure to article layout (auto-inject at top of every article)
-
-### 4.2 Affiliate Program Signups
-- [ ] Amazon Associates account
-- [ ] ShareASale account
-- [ ] CJ Affiliate account
-- [ ] Chrono24 affiliate (watches)
-- [ ] Jomashop affiliate (watches)
-- [ ] B&H Photo affiliate (tech/cameras)
-- [ ] Individual brand programs as needed
+| Metric | Month 1 Target | Month 3 Target | Month 6 Target |
+|--------|---------------|----------------|----------------|
+| Articles published | 48 (done!) | 70 | 100+ |
+| Monthly traffic | 50-200 | 800-2,000 | 10,000+ |
+| Newsletter subscribers | 20 | 100 | 500 |
+| Monthly revenue | €0-20 | €80-200 | €600+ |
+| Google indexed pages | 48 | 70 | 100+ |
+| Backlinks | 5 | 20 | 50+ |
 
 ---
 
-## PHASE 5: Article Templates & Components (Day 5-7)
-*Reusable building blocks for fast content creation*
+## TECH STACK
 
-### 5.1 Article Page Components
-- [ ] `<ProductCard>` — image, name, price, rating, pros, CTA button
-- [ ] `<ComparisonTable>` — side-by-side specs table (responsive)
-- [ ] `<ProsConsList>` — green checkmarks / red X list
-- [ ] `<VerdictBox>` — highlighted "our pick" / "best for" summary
-- [ ] `<PriceTracker>` — show current price from affiliate (optional, advanced)
-- [ ] `<FAQSection>` — accordion FAQ with JSON-LD schema auto-generation
-- [ ] `<AuthorBio>` — E-E-A-T signal for Google
-- [ ] `<RelatedArticles>` — internal linking (critical for SEO)
-- [ ] `<NewsletterSignup>` — inline CTA within articles
-- [ ] `<TableOfContents>` — auto-generated from headings
-- [ ] `<LastUpdated>` — show freshness date
-
-### 5.2 Article Templates (MDX starters)
-- [ ] **Comparison template** — "X vs Y": quick verdict, specs table, detailed breakdown, who should buy which, FAQ
-- [ ] **Review template** — "Is X worth it?": intro, specs, real-world usage, alternatives, verdict, FAQ
-- [ ] **Buying guide template** — "Best X under Y": intro, methodology, product cards (5-7), comparison table, FAQ
-- [ ] **Roundup template** — "Top 10 X in 2026": seasonal picks, tiered recommendations
+| Layer | Tool | Status |
+|-------|------|--------|
+| Framework | Next.js 16 (App Router) | ✅ Live |
+| Hosting | Vercel | ✅ Live |
+| Domain | Cloudflare (selectoire.com) | ✅ Live |
+| Affiliate US | Amazon Associates (selectoire21-20) | ✅ Active |
+| Affiliate DE | Amazon Associates (selectoire-21) | ✅ Active |
+| Affiliate others | Awin, CJ, ShareASale | ⏳ Pending signup |
+| Newsletter | Buttondown | ⏳ Pending setup |
+| Analytics | Google Analytics 4 | ⏳ Pending setup |
+| Search Console | Google Search Console | ⏳ Pending setup |
+| Images | Emoji placeholders | ⏳ Need real photos |
+| Styling | Inline styles | ⏳ Need Tailwind migration |
 
 ---
 
-## PHASE 6: Content Creation (Day 7-14)
-*Write the first batch of real articles*
+## FILE STRUCTURE
 
-### 6.1 First 5 Articles (Week 1 target)
-- [ ] Article 1: Comparison — "Tudor Black Bay 58 vs Tissot PRX — Which Should You Buy?"
-- [ ] Article 2: Buying Guide — "Best Dive Watches for Summer 2026 Under $5,000"
-- [ ] Article 3: Review — "Fujifilm X100VI Review — Is It Worth the Hype?"
-- [ ] Article 4: Comparison — "Sony WH-1000XM6 vs Bose QC Ultra — The Real Difference"
-- [ ] Article 5: Comparison — "MFK Baccarat Rouge 540 vs Le Labo Santal 33"
-
-### 6.2 Next 7 Articles (Week 2-3 target)
-- [ ] Article 6: Buying Guide — "Best Premium Headphones for Remote Work 2026"
-- [ ] Article 7: Review — "Oura Ring Gen 4 — 3 Months Later"
-- [ ] Article 8: Comparison — "Oura Ring vs Garmin Fenix 8 — Which Health Tracker?"
-- [ ] Article 9: Roundup — "Spring 2026: 10 Products Worth Your Money"
-- [ ] Article 10: Buying Guide — "Best Leather Boots Under $500"
-- [ ] Article 11: Review — "Apple AirPods Max 2 — Worth the Upgrade?"
-- [ ] Article 12: Comparison — "Tom Ford vs Creed — Luxury Fragrance Showdown"
-
----
-
-## PHASE 7: Newsletter & Email (Day 10-14)
-*Build owned audience*
-
-### 7.1 Newsletter Setup
-- [ ] Create Buttondown account (free) or Substack
-- [ ] Build `/newsletter` signup page
-- [ ] Add inline signup CTA component (place in articles)
-- [ ] Create welcome email template
-- [ ] Write first newsletter issue
-- [ ] Set up weekly send schedule (every Friday)
-
-### 7.2 Signup Placements
-- [ ] After article intro paragraph (inline)
-- [ ] End of every article (before related articles)
-- [ ] Dedicated `/newsletter` page
-- [ ] Footer of every page (small form)
-
----
-
-## PHASE 8: Dashboard Backend (Day 14-21)
-*Make the command center dashboards functional with real data*
-
-### 8.1 Product Intelligence Agent — Make It Real
-- [ ] Set up database (Supabase free tier or SQLite/Turso)
-- [ ] Create `products` table (name, category, subcategory, demand_score, trend, price, affiliate_url, etc.)
-- [ ] Create API route: `GET /api/products` — fetch products with filters
-- [ ] Create API route: `POST /api/products/scan` — trigger trend scan
-- [ ] Integrate real data sources:
-  - [ ] Google Trends API (via SerpApi or similar) for demand scoring
-  - [ ] Amazon Product API for pricing (or scrape with caution)
-  - [ ] Manual data entry as fallback
-- [ ] Replace hardcoded product data in `ProductIntelligenceAgent.jsx` with API calls
-- [ ] Add cron job / GitHub Action for weekly product scan
-- [ ] Store scan history for trend analysis
-
-### 8.2 Implementation Tracker — Make It Interactive
-- [ ] Add task completion state (persist to localStorage or database)
-- [ ] Add checkboxes to mark tasks done
-- [ ] Add progress bar per phase
-- [ ] Add overall completion percentage
-- [ ] Persist state across sessions
-
-### 8.3 Growth Dashboard — Add Real Metrics
-- [ ] Integrate Google Search Console API (show real impressions/clicks)
-- [ ] Integrate Google Analytics Data API (show real traffic)
-- [ ] Show actual backlink count (Ahrefs API or manual tracking)
-- [ ] Show newsletter subscriber count (Buttondown API)
-- [ ] Track affiliate clicks and conversions
+```
+seo-affiliate-site/
+├── src/
+│   ├── app/
+│   │   ├── page.tsx                    # Homepage
+│   │   ├── layout.tsx                  # Root layout with meta
+│   │   ├── sitemap.ts                  # Auto-generated sitemap
+│   │   ├── robots.ts                   # Robots.txt
+│   │   ├── [category]/                 # Dynamic category pages
+│   │   │   ├── page.tsx
+│   │   │   ├── CategoryPage.tsx
+│   │   │   └── [slug]/page.tsx         # Dynamic article pages (JSON-LD here)
+│   │   ├── impressum/page.tsx
+│   │   ├── datenschutz/page.tsx
+│   │   ├── affiliate-disclosure/page.tsx
+│   │   ├── api/newsletter/route.ts     # Newsletter API
+│   │   ├── tracker/                    # Dashboard (hidden from Google)
+│   │   ├── intelligence/               # Dashboard
+│   │   ├── growth/                     # Dashboard
+│   │   └── playbook/                   # Dashboard
+│   ├── components/
+│   │   ├── ArticlePage.jsx             # Main article layout + product cards
+│   │   ├── NewsletterSignup.jsx        # Newsletter form (3 variants)
+│   │   ├── ImplementationTracker.jsx
+│   │   └── ProductIntelligenceAgent.jsx
+│   ├── lib/
+│   │   ├── articles.ts                 # Article types + central registry
+│   │   ├── articles/                   # Article content files
+│   │   │   ├── watches.ts, watches2.ts
+│   │   │   ├── tech.ts, tech2.ts
+│   │   │   ├── fashion.ts, fashion2.ts, fashion3.ts
+│   │   │   ├── grooming.ts, grooming2.ts
+│   │   │   ├── home.ts, home2.ts
+│   │   │   ├── crossover.ts
+│   │   │   ├── trending.ts, trending2.ts, trending3.ts
+│   │   │   ├── geo-uae.ts, geo-uk.ts, geo-au.ts, geo-sg.ts
+│   │   ├── affiliate-links.ts         # Central affiliate URL registry
+│   │   ├── product-images.ts          # Product emoji/image mapping
+│   │   ├── related.ts                 # Cross-linking map
+│   │   └── trends.ts                  # Trend data for content planning
+│   ├── selectoire-homepage.jsx        # Homepage component
+│   └── operations-playbook.jsx        # Ops playbook component
+├── package.json
+├── next.config.ts
+├── tsconfig.json
+└── TODO.md                            # This file
+```
 
 ---
 
-## PHASE 9: Legal & Trust (Day 14-18)
-*Required for compliance and Google E-E-A-T*
+## LESSONS LEARNED
 
-### 9.1 Required Pages
-- [ ] `/about` — who you are, editorial process, expertise (E-E-A-T signal)
-- [ ] `/affiliate-disclosure` — full FTC/EU disclosure of affiliate relationships
-- [ ] `/privacy-policy` — GDPR/cookie policy
-- [ ] `/contact` — contact form or email
-- [ ] `/editorial-policy` — how you review products (E-E-A-T signal)
+1. **Search format links > direct ASIN links** — Amazon ASINs vary by region and product listings change. `/s?k=ProductName&tag=yourtag` always works and still earns commission on any purchase within 24 hours.
 
-### 9.2 Trust Signals
-- [ ] Add affiliate disclosure banner on every article page (auto in layout)
-- [ ] Add "Last updated: [date]" on all articles
-- [ ] Add author byline with bio on articles
-- [ ] Create simple logo + favicon
-- [ ] Add consistent branding (already have dark theme, just need logo)
+2. **Geo-targeting is a goldmine** — "Buy luxury watch Dubai" has near-zero competition in English but massive buyer intent. UAE, Australia, and Singapore articles target wealthy English-speaking markets that find only US-centric content.
 
----
+3. **Fashion has the highest ROI per article** — 8-14% commissions vs 3-5% for tech. A €300 bag at 10% earns €30. A €350 headphone at 3% earns €10.50. Same writing effort, 3x revenue.
 
-## PHASE 10: Growth & Launch (Day 18-28)
-*Get traffic and start earning*
+4. **Trend-driven content beats generic content** — Articles targeting specific search spikes (sunscreen in spring +400%, Paraboot +226% YoY, gorpcore sneakers Lyst #3) rank faster because they match real-time demand.
 
-### 10.1 Pre-Launch Checklist
-- [ ] All 12 articles published and indexed
-- [ ] Sitemap submitted to Google + Bing
-- [ ] All affiliate links working and tracked
-- [ ] Newsletter signup functional
-- [ ] Lighthouse score 90+ on key pages
-- [ ] Mobile responsive on all pages
-- [ ] Affiliate disclosure on every article
-- [ ] Privacy policy and about page live
+5. **Cross-linking compounds SEO value** — Every article links to 2-3 related articles. This creates a web of internal links that tells Google "this site is an authority on premium products" rather than isolated pages.
 
-### 10.2 Launch Activities
-- [ ] Submit all article URLs to Google Search Console for indexing
-- [ ] Share first 3 articles on relevant subreddits (follow Reddit rules)
-- [ ] Create profiles on: WatchUSeek, Head-Fi, Fragrantica, Styleforum
-- [ ] Send first newsletter
-- [ ] Set up Pinterest account + pin product images
-- [ ] Post on Twitter/X
+6. **Dual US + DE affiliate links capture more revenue** — European visitors who see only Amazon.com links bounce. Adding "Preis auf Amazon.de" captures the EU market with zero extra content effort.
 
-### 10.3 Ongoing Weekly Routine
-- [ ] Write 3-4 new articles per week
-- [ ] Send weekly newsletter (Friday)
-- [ ] Engage on Reddit/forums (Mon, Tue, Thu)
-- [ ] Send 2 guest post pitches (Wed)
-- [ ] Check Search Console data (Mon)
-- [ ] Run product intelligence scan (Fri)
-- [ ] Update prices in existing articles (Sun)
+7. **Start with content volume, optimize later** — 48 articles in the first sprint gives Google enough to index and rank. Perfecting 5 articles would have been slower than publishing 48 good ones.
 
----
-
-## Revenue Targets
-
-| Month | Articles | Monthly Traffic | Monthly Revenue | Milestone |
-|-------|----------|----------------|-----------------|-----------|
-| 1     | 10-12    | 50-200         | $0-20           | Foundation built |
-| 2     | 25-30    | 200-800        | $20-80          | First commissions |
-| 3     | 40-50    | 800-2,000      | $80-200         | SEO kicking in |
-| 4     | 55-65    | 2,000-5,000    | $200-400        | Compounding |
-| 5     | 70-80    | 5,000-10,000   | $400-600        | Approaching target |
-| 6+    | 80+      | 10,000+        | $600+           | Target reached |
-
----
-
-## Tech Stack Summary
-
-| Layer | Tool | Cost |
-|-------|------|------|
-| Framework | Next.js 16 (App Router) | Free |
-| Styling | Tailwind CSS | Free |
-| Content | MDX files (git-based) | Free |
-| Hosting | Vercel | Free tier |
-| Domain | Cloudflare/Namecheap | ~$10/yr |
-| Database | Supabase (for dashboard data) | Free tier |
-| Analytics | Google Analytics 4 + Plausible | Free |
-| Newsletter | Buttondown | Free tier |
-| Images | next/image + Vercel optimization | Free tier |
-| Affiliate | Amazon Associates, ShareASale, CJ | Free (commission-based) |
-
-**Total startup cost: ~$10/year (domain only)**
-
----
-
-## What Exists vs What Needs Building
-
-| Component | Current State | Needs |
-|-----------|--------------|-------|
-| Homepage | Static dashboard links | Real SEO landing page with featured articles |
-| Article pages | Don't exist | Full MDX pipeline + templates + 12 articles |
-| Product data | Hardcoded in JSX | Database + API + real trend data |
-| Affiliate links | Don't exist | Link management system + program signups |
-| SEO | No sitemap, no meta, no schema | Full technical SEO setup |
-| Analytics | Nothing | GA4 + Search Console + Plausible |
-| Newsletter | Don't exist | Buttondown integration + signup forms |
-| Deployment | Local only | Vercel + custom domain |
-| Legal pages | Don't exist | About, disclosure, privacy, contact |
-| Tracker | Static display | Interactive with persistence |
-| Growth page | Static strategies | Real metrics from APIs |
+8. **Legal pages are non-negotiable in Germany** — Impressum and Datenschutz are legally required. Missing them = potential fines. Added early to avoid issues.
