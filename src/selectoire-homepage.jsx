@@ -574,19 +574,25 @@ export default function SelectoireHomepage() {
               >
                 Legal
               </p>
-              {["Impressum", "Datenschutz", "Affiliate Disclosure"].map((s) => (
-                <p
-                  key={s}
+              {[
+                { label: "Impressum", href: "/impressum" },
+                { label: "Datenschutz", href: "/datenschutz" },
+                { label: "Affiliate Disclosure", href: "/affiliate-disclosure" },
+              ].map((s) => (
+                <Link
+                  key={s.href}
+                  href={s.href}
                   style={{
+                    display: "block",
                     fontSize: "13px",
                     color: "#8a8578",
                     margin: "0 0 6px",
                     fontWeight: 300,
-                    cursor: "pointer",
+                    textDecoration: "none",
                   }}
                 >
-                  {s}
-                </p>
+                  {s.label}
+                </Link>
               ))}
             </div>
           </div>

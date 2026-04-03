@@ -3,6 +3,8 @@
 import { useState } from "react";
 import Link from "next/link";
 import NewsletterSignup from "./NewsletterSignup";
+import { getRelatedSlugs } from "../lib/related";
+import { getArticleBySlug } from "../lib/articles";
 
 function StarRating({ rating }) {
   const full = Math.floor(rating);
@@ -527,6 +529,79 @@ export default function ArticlePage({ article }) {
 
         {/* Banner Newsletter Signup — after FAQ */}
         <NewsletterSignup variant="banner" />
+
+        {/* Related Articles */}
+        {(() => {
+          const relatedSlugs = getRelatedSlugs(article.slug);
+          const relatedArticles = relatedSlugs
+            .map((s) => getArticleBySlug(s))
+            .filter(Boolean);
+          if (relatedArticles.length === 0) return null;
+          return (
+            <div style={{ marginTop: "48px" }}>
+              <h2
+                style={{
+                  fontFamily: "'Cormorant Garamond', Georgia, serif",
+                  fontSize: "26px",
+                  fontWeight: 500,
+                  color: "#1a1a18",
+                  margin: "0 0 20px",
+                  paddingTop: "12px",
+                  borderTop: "1px solid rgba(180,160,120,0.12)",
+                }}
+              >
+                Related Reviews
+              </h2>
+              <div style={{ display: "flex", flexDirection: "column", gap: "12px" }}>
+                {relatedArticles.map((related) => (
+                  <Link
+                    key={related.slug}
+                    href={`/${related.category}/${related.slug}`}
+                    style={{ textDecoration: "none" }}
+                  >
+                    <div
+                      style={{
+                        background: "#fff",
+                        border: "1px solid rgba(180,160,120,0.12)",
+                        borderRadius: "6px",
+                        padding: "16px 20px",
+                        display: "flex",
+                        justifyContent: "space-between",
+                        alignItems: "center",
+                      }}
+                    >
+                      <div>
+                        <div
+                          style={{
+                            fontSize: "9px",
+                            fontWeight: 600,
+                            color: "#b4a078",
+                            letterSpacing: "0.1em",
+                            textTransform: "uppercase",
+                            marginBottom: "4px",
+                          }}
+                        >
+                          {related.type} · {related.category}
+                        </div>
+                        <div
+                          style={{
+                            fontSize: "14px",
+                            fontWeight: 600,
+                            color: "#1a1a18",
+                            lineHeight: 1.3,
+                          }}
+                        >
+                          {related.title}
+                        </div>
+                      </div>
+                      <span style={{ color: "#b4a078", fontSize: "16px", flexShrink: 0, marginLeft: "16px" }}>→</span>
+                    </div>
+                  </Link>
+                ))}
+              </div>
+            </div>
+          );
+        })()}
 
         {/* Affiliate Disclosure Footer */}
         <div
